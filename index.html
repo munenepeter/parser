@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="title" content="Parser">
@@ -56,7 +57,8 @@
                             class="block mb-2 text-sm text-center text-gray-500 dark:text-gray-400" for="file_input"
                             data-js-label>Select document to parse</label>
                         <form method="post" id="doc-form" enctype="multipart/form-data"
-                            class="flex flex-row justify-center items-center"> <!-- LI's -->
+                            class="flex flex-row justify-center items-center">
+                            <!-- LI's -->
                             <div style="display:none;" id="lis-found" class="bg-gray-50 rounded-lg p-2">
                                 <p id="flis" class="text-sm"></p>
                             </div> <!-- FORM --> <input
@@ -147,6 +149,18 @@
         </div>
     </div>
     <script src="static/js/index.js"></script>
-    <script> var myVar; function myFunction() { myVar = setTimeout(showPage, 3000); } function showPage() { document.getElementById("loader").style.display = "none"; document.getElementById("myDiv").style.display = "block"; } </script>
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 3000);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+    </script>
 </body>
+
 </html>
