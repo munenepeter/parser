@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="title" content="Parser">
-    <meta name="description" content="A Simple way of parsing pdf, docx, text or rtf files so as to identify certain keywords using pearl">
+    <meta name="description"
+        content="A Simple way of parsing pdf, docx, text or rtf files so as to identify certain keywords using pearl">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="author" content="Peter Munene">
-    <title>Tailwind Demo</title>
+    <title>Document Parser</title>
     <link rel="shortcut icon" href="static/imgs/translate.svg" type="image/svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
         integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw=="
@@ -55,12 +56,11 @@
 
                     </ul>
                 </header>
-                <div id="myTabContent">
+                <section id="myTabContent">
                     <div class="hidden p-2 rounded-lg bg-gray-100 dark:bg-gray-800" id="document" role="tabpanel"
                         aria-labelledby="document-tab">
                         <p id="doc-label" class="text-lg text-center font-medium text-gray-900 dark:text-white">Welcome
-                            to Document
-                            Parser</p>
+                            to Document Parser</p>
                         <label id="doc-label-guide"
                             class="block mb-2 text-sm text-center text-gray-500 dark:text-gray-400" for="file_input"
                             data-js-label>Select document to parse</label>
@@ -90,11 +90,11 @@
                         </section>
 
                         <section class="mt-2 flex justify-between">
-                            <div class="bg-gray-50 rounded-lg">
+                            <div class="hidden bg-gray-50 rounded-lg">
                                 <p class="text-sm"> fvfvdrfvdfvfvddfvdfvdfv</p>
                             </div>
-                        <button style="display:none;" id="clear" type="button"
-                            class="mt-1 float-right clearfix text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Reset</button>
+                            <button style="display:none;" id="clear" type="button"
+                                class="mt-1 float-right clearfix text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Reset</button>
 
                         </section>
                     </div>
@@ -114,7 +114,7 @@
                             class="my-2 focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Parse</button>
                         <!-- Text content -->
                         <section id="text-content" class="mt-2 p-4 rounded-lg bg-white">
-                            
+
                             <button id="clear" type="button"
                                 class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Clear</button>
                         </section>
@@ -140,13 +140,15 @@
                         </section>
                     </div>
 
-                </div>
+                </section>
             </article>
         </section>
     </main>
-    <div class="border-t bg-gray-50 left-50 w-full  bottom-0" style="position: fixed;  left: 50%; transform: translate(-50%, 0);">
+    <div class="border-t bg-gray-50 left-50 w-full  bottom-0"
+        style="position: fixed;  left: 50%; transform: translate(-50%, 0);">
         <div class="text-gray-900 text-sm text-center">
-            <div class="my-5 text-center">© 2020 - 2023 All rights reserved | Chungu Developers</div>
+            <div class="my-5 text-center">© 2020 - 2023 All rights reserved | <a class="hover:underline"
+                    href="https://github.com/munenepeter">Chungu Developers</a> </div>
         </div>
     </div>
     <script src="static/js/index.js"></script>
