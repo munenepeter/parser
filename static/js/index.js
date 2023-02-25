@@ -112,7 +112,7 @@ textForm.addEventListener("submit", (e) => {
 let urlForm = document.querySelector("#url-form")
 urlForm.addEventListener("submit", (e) => {
   e.preventDefault();
-  document.getElementById("loader").style.display = "block";
+  document.getElementById("loader-url").style.display = "block";
 
   const formData = new FormData(urlForm);
   const url = "/src/parse.php";
@@ -120,7 +120,7 @@ urlForm.addEventListener("submit", (e) => {
     .post(url, formData)
     .then((res) => {
       console.log(res);
-      document.getElementById("loader").style.display = "none";
+      document.getElementById("loader-url").style.display = "none";
       document.getElementById("url-input").style.display = "none";
       document.getElementById("submiturl").style.display = "none";
 
