@@ -79,7 +79,7 @@ function getWordText($file) {
     }
     return $text;
 }
-function getExcelText($file){
+function getExcelText($file) {
     throw new \Exception("Excel format is yet to be supported! E214");
 }
 function readUploadedFile($file) {
@@ -100,5 +100,42 @@ function readUploadedFile($file) {
         $text = file_get_contents($file);
     }
 
+    return $text;
+}
+
+function wp_strip_all_tags($string, $remove_breaks = false) {
+    $string = preg_replace('@<(script|style)[^>]*?>.*?</\\1>@si', '', $string);
+    $string = strip_tags($string);
+
+    if ($remove_breaks) {
+        $string = preg_replace('/[\r\n\t ]+/', ' ', $string);
+    }
+
+    return trim($string);
+}
+
+function getUrlText($url) {
+    $context = stream_context_create(
+        [
+            "http" => [
+                "header" => "User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+            ]
+        ]
+    );
+    $html = file_get_contents($url, false, $context);
+
+    $parser = new Parser();
+
+    if (str_contains($url, ".pdf")) {
+        try {
+            $text = $parser->parseContent($html)->getText();
+        } catch (\Exception $e) {
+            throw new \Exception($e->getMessage());
+            logger('ERROR: An exception for URL was thrown ' . $e->getMessage());
+            return;
+        }
+    } else {
+        $text = wp_strip_all_tags($html);
+    }
     return $text;
 }
