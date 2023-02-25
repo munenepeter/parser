@@ -101,28 +101,39 @@
                     <!-- TEXT PARSER -->
                     <div class="hidden p-2 rounded-lg bg-gray-100 dark:bg-gray-800" id="text" role="tabpanel"
                         aria-labelledby="text-tab">
-                        <p class="text-lg text-center font-medium text-gray-900 dark:text-white">Welcome to Text Parser
+                        <p id="text-label" class="text-lg text-center font-medium text-gray-900 dark:text-white">Welcome
+                            to Text Parser
                         </p>
 
-                        <label for="doc-txt"
+                        <label for="doc-txt" id="text-label-guide"
                             class="block mb-2 text-sm text-center text-gray-500 dark:text-gray-400">Paste
                             your content here</label>
-                        <textarea id="doc-txt" rows="4"
-                            class=" overflow-y-auto block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                            placeholder="Paste to parse"></textarea>
 
-                        <button name="submittext" type="submit" id="submittext"
-                            class="my-2 focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Parse</button>
+                        <!-- LI's -->
+
+                        <div style="display:none;" id="lis-found-txt" class="bg-gray-50 rounded-lg p-2">
+                            <p id="flis-txt" class="text-sm"></p>
+                        </div>
+
+
+                        <form id="txt-form">
+                            <textarea id="doc-txt" rows="4"
+                                class=" overflow-y-auto block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                placeholder="Paste to parse"></textarea>
+
+                            <button name="submittext" type="submit" id="submittext"
+                                class="my-2 focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Parse</button>
+                        </form>
                         <!-- Text content -->
 
                         <center>
                             <img style="display:none;" id="loader" src="static/imgs/loader.gif" alt="" width="150"
                                 height="150" srcset=""></p>
                         </center>
-                       
 
-                        <section id="text-content" style="display:none;" class="mt-4 p-2 rounded-lg bg-white">
-                            <div id="content" class="p-2 overflow-y-auto h-80"></div>
+
+                        <section id="txt-content" style="display:none;" class="mt-4 p-2 rounded-lg bg-white">
+                            <div id="text-content" class="p-2 overflow-y-auto h-80"></div>
                         </section>
 
                         <section class="mt-2 flex justify-between">
