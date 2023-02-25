@@ -12,7 +12,7 @@ function customInput(el) {
     }
 }
 
-const form = document.querySelector("form");
+const form = document.querySelector("#doc-form");
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   document.getElementById("loader").style.display = "block";
@@ -74,7 +74,7 @@ clearBtn.addEventListener('click', () => {
 // });
 
 let textForm = document.querySelector("#txt-form")
-form.addEventListener("submit", (e) => {
+textForm.addEventListener("submit", (e) => {
   e.preventDefault();
   document.getElementById("loader").style.display = "block";
 

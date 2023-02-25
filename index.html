@@ -64,7 +64,7 @@
                         <label id="doc-label-guide"
                             class="block mb-2 text-sm text-center text-gray-500 dark:text-gray-400" for="file_input"
                             data-js-label>Select document to parse</label>
-                        <form method="post" enctype="multipart/form-data"
+                        <form method="post" id="doc-form" enctype="multipart/form-data"
                             class="flex flex-row justify-center items-center">
 
                             <!-- LI's -->
@@ -116,12 +116,12 @@
                         </div>
 
 
-                        <form id="txt-form">
+                        <form method="post" id="txt-form">
                             <textarea id="doc-txt" rows="4"
-                                class=" overflow-y-auto block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Paste to parse"></textarea>
+                                class="overflow-y-auto block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                name="text" placeholder="Paste to parse"></textarea>
 
-                            <button name="submittext" type="submit" id="submittext"
+                            <button type="submit" id="submittext"
                                 class="my-2 focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Parse</button>
                         </form>
                         <!-- Text content -->
