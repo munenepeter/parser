@@ -11,7 +11,10 @@ function customInput(el) {
       label.innerText = value
     }
 }
-
+/**
+ * 
+ * Handle Doc Upload
+ */
 const form = document.querySelector("#doc-form");
 form.addEventListener("submit", (e) => {
   e.preventDefault();
