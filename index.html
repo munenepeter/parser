@@ -147,23 +147,41 @@
                     </div>
                     <div class="hidden p-4 rounded-lg bg-gray-100 dark:bg-gray-800" id="url" role="tabpanel"
                         aria-labelledby="url-tab">
+
+
                         <p class="text-lg text-center font-medium text-gray-900 dark:text-white">Welcome to URL Parser
                         </p>
                         <label class="block mb-2 text-sm text-center text-gray-500 dark:text-gray-400"
                             for="file_input">Enter a URL to a document</label>
+
+
+
                         <div class="flex flex-row justify-center items-center">
                             <form id="url-form" method="post">
-                            <input name="url" type="url"
-                                class="mr-2 block w-3/4 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="https://example.com" />
-                            <button  type="submit" id="submiturl"
-                                class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Parse</button>
+                                <input name="url" type="url"
+                                    class="mr-2 block w-3/4 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                    placeholder="https://example.com" />
+                                <button type="submit" id="submiturl"
+                                    class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Parse</button>
                             </form>
-                            </div>
+                        </div>
                         <!-- URL content -->
-                        <section id="url-content" class="mt-2 p-4 rounded-lg bg-white">
-                            <button id="clear" type="button"
-                                class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Clear</button>
+                        <center>
+                            <img style="display:none;" id="loader" src="static/imgs/loader.gif" alt="" width="150"
+                                height="150" srcset=""></p>
+                        </center>
+
+
+                        <section id="url-content" style="display:none;" class="mt-4 p-2 rounded-lg bg-white">
+                            <div id="uri-content" class="p-2 overflow-y-auto h-80"></div>
+                        </section>
+
+                        <section class="mt-2 flex justify-between">
+                            <div class="hidden bg-gray-50 rounded-lg">
+                                <p class="text-sm">something will be added here</p>
+                            </div>
+                            <button style="display:none;" id="clear" type="button"
+                                class="mt-1 float-right clearfix text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Reset</button>
                         </section>
                     </div>
 
