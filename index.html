@@ -152,21 +152,21 @@
                         <label id="url-label-guide" class="block mb-2 text-sm text-center text-gray-500 dark:text-gray-400"
                             for="url">Enter a URL to a document</label>
 
-                        <!-- LI's -->
+                            <form method="post" id="doc-form" enctype="multipart/form-data"
+                            class="flex flex-row justify-center items-center">
 
-                        <div style="display:none;" id="lis-found-url" class="bg-gray-50 rounded-lg p-2">
-                            <p id="flis-url" class="text-sm"></p>
-                        </div>
+                            <!-- LI's -->
+                            <div style="display:none;" id="lis-found-url" class="bg-gray-50 rounded-lg p-2">
+                                <p id="flis-url" class="text-sm"></p>
+                            </div>
 
-                        <div class="flex flex-row justify-center items-center">
-                            <form id="url-form" method="post">
-                                <input name="url" type="url" id="url"
-                                    class="mr-2 block w-3/4 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                    placeholder="https://example.com" />
-                                <button type="submit" id="submiturl"
-                                    class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Parse</button>
-                            </form>
-                        </div>
+                            <!-- FORM -->
+                            <input name="url" type="url" id="url"
+                            class="mr-2 block w-3/4 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="https://example.com" />
+                            <button type="submit" id="submiturl"
+                            class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Parse</button>
+                    </form>
                         <!-- URL content -->
                         <center>
                             <img style="display:none;" id="loader" src="static/imgs/loader.gif" alt="" width="150"
