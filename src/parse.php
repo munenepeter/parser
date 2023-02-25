@@ -39,8 +39,9 @@ if (!empty($_FILES) && empty($_POST['text'])) {
     } else {
         $messages['lis_found'] = "No LI's Found!";
     }
-
 } elseif (!empty($_POST['text']) && empty($_FILES)) {
+    
+    $text = trim($_POST['text']);
 
     if (!empty($text)) {
         //logger("INFO: Successfully parsed " . $_FILES['files']['name'] . " in  $execution_time seconds!");
@@ -52,7 +53,7 @@ if (!empty($_FILES) && empty($_POST['text'])) {
         return;
     }
 
-    $text = trim($_POST['text']);
+
     //search for LIS
     if (!empty(getLisInText($text, getAllLis()))) {
         $messages['lis_found'] =  implode(", ", getLisInText($text, getAllLis()));
