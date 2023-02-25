@@ -11,7 +11,7 @@ include 'functions.php';
 
 
 $messages = [];
-
+// Handle File upload
 if (!empty($_FILES) && empty($_POST['text'])) {
     $start_time = microtime(true);
     logger('INFO: Succesfully uploaded ' . json_encode($_FILES));
@@ -33,6 +33,7 @@ if (!empty($_FILES) && empty($_POST['text'])) {
         echo json_encode($messages);
         return;
     }
+    // Handle Text input
 } elseif (!empty($_POST['text']) && empty($_FILES)) {
 
     $text = trim($_POST['text']);
