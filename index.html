@@ -147,18 +147,20 @@
                     </div>
                     <div class="hidden p-4 rounded-lg bg-gray-100 dark:bg-gray-800" id="url" role="tabpanel"
                         aria-labelledby="url-tab">
-
-
-                        <p class="text-lg text-center font-medium text-gray-900 dark:text-white">Welcome to URL Parser
+                        <p id="url-label-" class="text-lg text-center font-medium text-gray-900 dark:text-white">Welcome to URL Parser
                         </p>
-                        <label class="block mb-2 text-sm text-center text-gray-500 dark:text-gray-400"
-                            for="file_input">Enter a URL to a document</label>
+                        <label id="url-label-guide" class="block mb-2 text-sm text-center text-gray-500 dark:text-gray-400"
+                            for="url">Enter a URL to a document</label>
 
+                        <!-- LI's -->
 
+                        <div style="display:none;" id="lis-found-url" class="bg-gray-50 rounded-lg p-2">
+                            <p id="flis-url" class="text-sm"></p>
+                        </div>
 
                         <div class="flex flex-row justify-center items-center">
                             <form id="url-form" method="post">
-                                <input name="url" type="url"
+                                <input name="url" type="url" id="url"
                                     class="mr-2 block w-3/4 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                                     placeholder="https://example.com" />
                                 <button type="submit" id="submiturl"
