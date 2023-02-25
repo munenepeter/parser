@@ -33,14 +33,8 @@ if (!empty($_FILES) && empty($_POST['text'])) {
         echo json_encode($messages);
         return;
     }
-    //search for LIS
-    if (!empty(getLisInText($text, getAllLis()))) {
-        $messages['lis_found'] =  implode(", ", getLisInText($text, getAllLis()));
-    } else {
-        $messages['lis_found'] = "No LI's Found!";
-    }
 } elseif (!empty($_POST['text']) && empty($_FILES)) {
-    
+
     $text = trim($_POST['text']);
 
     if (!empty($text)) {
@@ -52,16 +46,13 @@ if (!empty($_FILES) && empty($_POST['text'])) {
         echo json_encode($messages);
         return;
     }
-
-
-    //search for LIS
-    if (!empty(getLisInText($text, getAllLis()))) {
-        $messages['lis_found'] =  implode(", ", getLisInText($text, getAllLis()));
-    } else {
-        $messages['lis_found'] = "No LI's Found!";
-    }
 }
-
+//search for LIS
+if (!empty(getLisInText($text, getAllLis()))) {
+    $messages['lis_found'] =  implode(", ", getLisInText($text, getAllLis()));
+} else {
+    $messages['lis_found'] = "No LI's Found!";
+}
 
 echo json_encode($messages);
 
