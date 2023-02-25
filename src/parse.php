@@ -19,6 +19,9 @@ if (!empty($_FILES) && empty($_POST['text'])) {
     // Handle Text input
 } elseif (!empty($_POST['text']) && empty($_FILES)) {
     $text = trim($_POST['text']);
+    //handle urls
+} elseif (!empty($_POST['url']) && empty($_FILES)) {
+    $url = trim($_POST['url']);
 }
 
 
@@ -44,4 +47,3 @@ echo json_encode($messages);
 
 clearstatcache();
 exit;
-

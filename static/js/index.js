@@ -66,15 +66,51 @@ clearBtn.addEventListener('click', () => {
   document.getElementById("clear").style.display = "none";
 });
 
-// const textUploadBtn = document.getElementById('submittext');
-// textUploadBtn.addEventListener('click', () => {
-//   let text = document.getElementById('doc-txt').value;
-//   document.getElementById('text-content').innerHTML = text;
-//   document.getElementById("clear").style.display = "block";
-// });
+/**
+ * 
+ * Handle Text inputs
+ */
 
 let textForm = document.querySelector("#txt-form")
 textForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  document.getElementById("loader").style.display = "block";
+
+  const formData = new FormData(textForm);
+  const url = "/src/parse.php";
+  axios
+    .post(url, formData)
+    .then((res) => {
+      console.log(res);
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("doc-txt").style.display = "none";
+      document.getElementById("submittext").style.display = "none";
+
+      document.getElementById("text-label").innerText = "The following have been found to be possible LI's within the file";
+      document.getElementById("text-label-guide").innerText = "Confirm and copy them to your clipboard";
+
+      document.getElementById("txt-content").style.display = "block";
+
+      document.getElementById('text-content').innerHTML = res.data.text;
+      document.getElementById('flis-txt').innerHTML = res.data.lis_found;
+
+      document.getElementById("clear").style.display = "block";
+      document.getElementById("lis-found-txt").style.display = "block";
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+
+});
+
+
+/**
+ * 
+ * Handle URL inputs
+ */
+
+let urlForm = document.querySelector("#url-form")
+urlForm.addEventListener("submit", (e) => {
   e.preventDefault();
   document.getElementById("loader").style.display = "block";
 
