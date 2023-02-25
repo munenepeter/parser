@@ -47,7 +47,10 @@ form.addEventListener("submit", (e) => {
     });
 
 });
-
+/**
+ * 
+ * Clear Button
+ */
 const clearBtn = document.getElementById('clear');
 clearBtn.addEventListener('click', () => {
   document.getElementById("lis-found").style.display = "none";
