@@ -1,16 +1,13 @@
 <?php
 
 header('Content-Type: application/json; charset=utf-8');
-
 header("Access-Control-Allow-Origin: *");
-
 header("Access-Control-Allow-Methods: PUT, GET, POST");
 
 include 'functions.php';
-
-
-
+//empty response
 $messages = [];
+
 // Handle File upload
 if (!empty($_FILES) && empty($_POST['text'])) {
     try {
@@ -25,7 +22,6 @@ if (!empty($_FILES) && empty($_POST['text'])) {
 }
 
 
-
 //check if text is empty
 if (!empty($text)) {
     $messages['text'] = $text;
@@ -36,15 +32,14 @@ if (!empty($text)) {
     return;
 }
 
-
 //search for LIS
 if (!empty(getLisInText($text, getAllLis()))) {
     $messages['lis_found'] =  implode(", ", getLisInText($text, getAllLis()));
 } else {
-    $messages['text'] = "No text was found to be parsed!";
     $messages['lis_found'] = "No LI's Found!";
 }
 
+//return the object response
 echo json_encode($messages);
 
 clearstatcache();
