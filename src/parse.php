@@ -21,7 +21,12 @@ if (!empty($_FILES) && empty($_POST['text'])) {
     $text = trim($_POST['text']);
     //handle urls
 } elseif (!empty($_POST['url']) && empty($_FILES)) {
-    $url = trim($_POST['url']);
+    try {
+        $text = getUrlText(trim($_POST['url']));
+    } catch (\Exception $e) {
+        logger('ERROR: ' . $e->getMessage());
+        $messages['text'] = '<p class="p-4 text-red-500 text-sm font-semibold text-center">You have no idea what happened huh? Well so do I. Code:E214</p>';
+    }
 }
 
 
