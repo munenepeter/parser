@@ -83,7 +83,7 @@ textForm.addEventListener("submit", (e) => {
     .then((res) => {
       console.log(res);
       document.getElementById("loader").style.display = "none";
-      document.getElementById("doc-txt").style.display = "none";
+      document.getElementById("doc-txt-textarea").style.display = "none";
       document.getElementById("submittext").style.display = "none";
 
       document.getElementById("text-label").innerText = "The following have been found to be possible LI's within the file";
@@ -114,26 +114,26 @@ urlForm.addEventListener("submit", (e) => {
   e.preventDefault();
   document.getElementById("loader").style.display = "block";
 
-  const formData = new FormData(textForm);
+  const formData = new FormData(urlForm);
   const url = "/src/parse.php";
   axios
     .post(url, formData)
     .then((res) => {
       console.log(res);
       document.getElementById("loader").style.display = "none";
-      document.getElementById("doc-txt").style.display = "none";
-      document.getElementById("submittext").style.display = "none";
+      document.getElementById("url-input").style.display = "none";
+      document.getElementById("submiturl").style.display = "none";
 
-      document.getElementById("text-label").innerText = "The following have been found to be possible LI's within the file";
-      document.getElementById("text-label-guide").innerText = "Confirm and copy them to your clipboard";
+      document.getElementById("url-label").innerText = "The following have been found to be possible LI's within the file";
+      document.getElementById("url-label-guide").innerText = "Confirm and copy them to your clipboard";
 
-      document.getElementById("txt-content").style.display = "block";
+      document.getElementById("url-content").style.display = "block";
 
-      document.getElementById('text-content').innerHTML = res.data.text;
-      document.getElementById('flis-txt').innerHTML = res.data.lis_found;
+      document.getElementById('uri-content').innerHTML = res.data.text;
+      document.getElementById('flis-url').innerHTML = res.data.lis_found;
 
       document.getElementById("clear").style.display = "block";
-      document.getElementById("lis-found-txt").style.display = "block";
+      document.getElementById("lis-found-url").style.display = "block";
     })
     .catch((err) => {
       console.log(err);
