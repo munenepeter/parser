@@ -152,12 +152,14 @@
                         <label class="block mb-2 text-sm text-center text-gray-500 dark:text-gray-400"
                             for="file_input">Enter a URL to a document</label>
                         <div class="flex flex-row justify-center items-center">
-                            <input name="submiturl" type="url"
+                            <form id="url-form" method="post">
+                            <input name="url" type="url"
                                 class="mr-2 block w-3/4 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                                 placeholder="https://example.com" />
-                            <button name="submiturl" type="submit" id="submiturl"
+                            <button  type="submit" id="submiturl"
                                 class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Parse</button>
-                        </div>
+                            </form>
+                            </div>
                         <!-- URL content -->
                         <section id="url-content" class="mt-2 p-4 rounded-lg bg-white">
                             <button id="clear" type="button"
