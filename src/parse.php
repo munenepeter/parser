@@ -48,7 +48,7 @@ if (!empty(getLisInText($text, getAllLis()))) {
 }
 
 //return the object response
-echo json_encode($messages);
+echo json_encode($messages, JSON_INVALID_UTF8_IGNORE);
 
 clearstatcache();
 exit;
