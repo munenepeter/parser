@@ -17,21 +17,23 @@ function logger(String $message) {
     fclose($file);
 }
 
-function getAllLis() {
-    //from cached file
-    return json_decode(file_get_contents(__DIR__."/../static/lis.txt"), true);
-}
+// function getAllLis() {
+//     //from cached file
+//     return json_decode(file_get_contents(__DIR__."/../static/lis.txt"), true);
+// }
+
+$keywords = json_decode(file_get_contents("static/lis.txt"), true);
+
+$dataset = json_decode(file_get_contents("lis-names.json"), true);
 
 
 
+function get_keywords_in_text($text, $keywords) {
 
-
-
-function getLisInText($text) {
     $foundWords = [];
 
     $chunkSize = 240;
-    $searchWordChunks = array_chunk(getAllLis(), $chunkSize);
+    $searchWordChunks = array_chunk($keywords, $chunkSize);
 
     // Search for each group of words separately
     foreach ($searchWordChunks as $chunk) {
@@ -45,6 +47,47 @@ function getLisInText($text) {
     }
     return $foundWords;
 }
+
+
+
+
+function get_lis_in_text($keywords_found_in_text, $dataset) {
+    $found_names_in_text = [];
+
+    // Compare found keywords with dataset
+    foreach ($dataset as $data) {
+        $keywords = explode(", ", $data["abbr"]);
+        foreach ($keywords_found_in_text as $found) {
+            foreach ($keywords as $kw) {
+                if (strcasecmp($found, $kw) == 0) {
+                    $found_names_in_text[] = $data['name'];
+                }
+            }
+        }
+    }
+  
+    return $found_names_in_text;
+}
+
+
+// function getLisInText($text) {
+//     $foundWords = [];
+
+//     $chunkSize = 240;
+//     $searchWordChunks = array_chunk(getAllLis(), $chunkSize);
+
+//     // Search for each group of words separately
+//     foreach ($searchWordChunks as $chunk) {
+//         $escapedSearchWords = array_map(function ($word) {
+//             return preg_quote($word, '/');
+//         }, $chunk);
+//         $pattern = '/\b(' . implode('|', $escapedSearchWords) . ')\b/i';
+//         preg_match_all($pattern, $text, $matches);
+//         //remove duplicate & empty elements
+//         $foundWords = array_filter(array_unique(array_merge($foundWords, $matches[0])));
+//     }
+//     return $foundWords;
+// }
 //parse PDF files
 function getPdfText($filename) {
     try {
