@@ -19,17 +19,12 @@ function logger(String $message) {
 
 function getAllLis() {
     //from cached file
-    return json_decode(file_get_contents(__DIR__."/../static/lis-names.json"), true);
+    return json_decode(file_get_contents(__DIR__ . "/../static/lis-names.json"), true);
 }
 function getAllKeywords() {
     //from cached file
-    return json_decode(file_get_contents(__DIR__."/../static/keywords.txt"), true);
+    return json_decode(file_get_contents(__DIR__ . "/../static/keywords.txt"), true);
 }
-
-$keywords = json_decode(file_get_contents("static/lis.txt"), true);
-
-$dataset = json_decode(file_get_contents("lis-names.json"), true);
-
 
 
 function get_keywords_in_text($text) {
@@ -37,7 +32,7 @@ function get_keywords_in_text($text) {
     $foundWords = [];
 
     $chunkSize = 240;
-    $searchWordChunks = array_chunk($keywords, $chunkSize);
+    $searchWordChunks = array_chunk(getAllKeywords(), $chunkSize);
 
     // Search for each group of words separately
     foreach ($searchWordChunks as $chunk) {
@@ -69,7 +64,7 @@ function get_lis_in_text($keywords_found_in_text) {
             }
         }
     }
-  
+
     return $found_names_in_text;
 }
 
@@ -92,6 +87,8 @@ function get_lis_in_text($keywords_found_in_text) {
 //     }
 //     return $foundWords;
 // }
+
+
 //parse PDF files
 function getPdfText($filename) {
     try {
