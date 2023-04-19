@@ -23,6 +23,10 @@ function getAllLis() {
 }
 
 
+
+
+
+
 function getLisInText($text) {
     $foundWords = [];
 

@@ -91,7 +91,86 @@ foreach ($dataset as $data) {
     }
 }
 
-// Step 3: Print found names
-print_r($found_names_in_text);
 
 
+function getKeywordsInText($text, $keywords) {
+
+    $foundWords = [];
+
+    $chunkSize = 240;
+    $searchWordChunks = array_chunk($keywords, $chunkSize);
+
+    // Search for each group of words separately
+    foreach ($searchWordChunks as $chunk) {
+        $escapedSearchWords = array_map(function ($word) {
+            return preg_quote($word, '/');
+        }, $chunk);
+        $pattern = '/\b(' . implode('|', $escapedSearchWords) . ')\b/i';
+        preg_match_all($pattern, $text, $matches);
+        //remove duplicate & empty elements
+        $foundWords = array_filter(array_unique(array_merge($foundWords, $matches[0])));
+    }
+    return $foundWords;
+}
+
+
+
+
+function getLisinText($keywords, $dataset) {
+    $found_names_in_text = [];
+
+    // Compare found keywords with dataset
+    foreach ($dataset as $data) {
+        $keywords = explode(", ", $data["abbr"]);
+        foreach ($keywords as $found) {
+            foreach ($keywords as $kw) {
+                if (strcasecmp($found, $kw) == 0) {
+                    $found_names_in_text[] = $data['name'];
+                }
+            }
+        }
+    }
+  
+    return $found_names_in_text;
+}
+
+
+
+
+
+
+print_r(getKeywordsInText($text, $keywords));
+
+echo "LIS".PHP_EOL;
+print_r(getKeywordsInText($text, $keywords));
+
+
+// function search_text_for_keywords($text, $keywords, $dataset) {
+//     $found_keywords_in_text = [];
+//     $found_names_in_text = [];
+
+//     //Search for keywords in text
+//     foreach ($keywords as $keyword) {
+//         if (stripos($text, $keyword) !== false) {
+//             $found_keywords_in_text[] = $keyword;
+//         }
+//     }
+
+//     // Compare found keywords with dataset
+//     foreach ($dataset as $data) {
+//         $keywords = explode(", ", $data["abbr"]);
+//         foreach ($found_keywords_in_text as $found) {
+//             foreach ($keywords as $kw) {
+//                 if (strcasecmp($found, $kw) == 0) {
+//                     $found_names_in_text[] = $data['name'];
+//                 }
+//             }
+//         }
+//     }
+
+//     $found = [];
+//     $found['keywords'] = $found_keywords_in_text;
+//     $found['lis'] = $found_names_in_text;
+
+//     return $found;
+// }
