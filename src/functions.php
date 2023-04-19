@@ -26,7 +26,7 @@ function getAllLis() {
 function getLisInText($text) {
     $foundWords = [];
 
-    $chunkSize = 242;
+    $chunkSize = 240;
     $searchWordChunks = array_chunk(getAllLis(), $chunkSize);
 
     // Search for each group of words separately
