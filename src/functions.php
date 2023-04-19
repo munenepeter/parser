@@ -17,10 +17,14 @@ function logger(String $message) {
     fclose($file);
 }
 
-// function getAllLis() {
-//     //from cached file
-//     return json_decode(file_get_contents(__DIR__."/../static/lis.txt"), true);
-// }
+function getAllLis() {
+    //from cached file
+    return json_decode(file_get_contents(__DIR__."/../static/lis-names.json"), true);
+}
+function getAllKeywords() {
+    //from cached file
+    return json_decode(file_get_contents(__DIR__."/../static/keywords.txt"), true);
+}
 
 $keywords = json_decode(file_get_contents("static/lis.txt"), true);
 
@@ -28,7 +32,7 @@ $dataset = json_decode(file_get_contents("lis-names.json"), true);
 
 
 
-function get_keywords_in_text($text, $keywords) {
+function get_keywords_in_text($text) {
 
     $foundWords = [];
 
@@ -51,11 +55,11 @@ function get_keywords_in_text($text, $keywords) {
 
 
 
-function get_lis_in_text($keywords_found_in_text, $dataset) {
+function get_lis_in_text($keywords_found_in_text) {
     $found_names_in_text = [];
 
     // Compare found keywords with dataset
-    foreach ($dataset as $data) {
+    foreach (getAllLis() as $data) {
         $keywords = explode(", ", $data["abbr"]);
         foreach ($keywords_found_in_text as $found) {
             foreach ($keywords as $kw) {
