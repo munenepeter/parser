@@ -44,7 +44,7 @@ function get_keywords_in_text($text) {
         //remove duplicate & empty elements
         $foundWords = array_filter(array_unique(array_merge($foundWords, $matches[0])));
     }
-    return $foundWords;
+    return array_unique($foundWords);
 }
 
 
@@ -65,7 +65,7 @@ function get_lis_in_text($keywords_found_in_text) {
         }
     }
 
-    return $found_names_in_text;
+    return array_unique($found_names_in_text);
 }
 
 
