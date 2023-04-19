@@ -41,8 +41,8 @@ if (!empty($text)) {
 }
 
 //search for LIS
-if (!empty(getLisInText($text, getAllLis()))) {
-    $messages['lis_found'] =  implode(", ", getLisInText($text, getAllLis()));
+if (!empty(getLisInText($text))) {
+    $messages['lis_found'] =  implode(", ", getLisInText($text));
 } else {
     $messages['lis_found'] = "No LI's Found!";
 }

@@ -19,15 +19,15 @@ function logger(String $message) {
 
 function getAllLis() {
     //from cached file
-    return json_decode(file_get_contents("static/lis.txt"));
+    return json_decode(file_get_contents(__DIR__."/../static/lis.txt"), true);
 }
 
 
-function getLisInText($text, $lis) {
+function getLisInText($text) {
     $foundWords = [];
 
     $chunkSize = 242;
-    $searchWordChunks = array_chunk(array_unique($lis), $chunkSize);
+    $searchWordChunks = array_chunk(getAllLis(), $chunkSize);
 
     // Search for each group of words separately
     foreach ($searchWordChunks as $chunk) {
