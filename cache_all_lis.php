@@ -1,6 +1,11 @@
 <?php
 
+//testing using the pearls
 
+$pearls = <<<PEARLS
+
+
+PEARLS;
 
 function getAllLis() {
     //from db
@@ -17,5 +22,21 @@ function getAllLis() {
             $allLis[] = trim($abbr);
         }
     }
-    return  $allLis;
+    return  array_filter($allLis);
 }
+
+$allpearls = array_merge(explode(',', trim($pearls)), GetAllLis());
+
+$allpearls = array_map(function ($pearl) {
+    return strtolower(trim($pearl));
+}, $allpearls);
+
+
+
+
+
+file_put_contents("static/lis.txt", json_encode(array_unique($allpearls)));
+
+print_r(array_unique($allpearls));
+
+
