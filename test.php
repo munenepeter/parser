@@ -7,6 +7,10 @@ $pearls = <<<PEARLS
 
 PEARLS;
 
-$allpearls = explode(trim($pearls), ',');
+$allpearls = explode(',', trim($pearls));
+
+$allpearls = array_map(function ($pearl) {
+    return strtolower(trim($pearl));
+}, $allpearls);
 
 print_r($allpearls);
