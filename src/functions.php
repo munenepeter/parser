@@ -32,7 +32,7 @@ function getAllLis() {
             $allLis[] = trim($abbr);
         }
     }
-    return   $allLis;
+    return  $allLis;
 }
 
 
