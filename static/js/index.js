@@ -29,7 +29,7 @@ form.addEventListener("submit", (e) => {
       },
     })
     .then((res) => {
-      console.log(res);
+      //console.log(res);
       document.getElementById("loader").style.display = "none";
       document.getElementById("submitpdf").style.display = "none";
       document.getElementById("file_input").style.display = "none";
