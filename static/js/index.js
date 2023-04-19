@@ -35,7 +35,7 @@ form.addEventListener("submit", (e) => {
       document.getElementById("file_input").style.display = "none";
 
       document.getElementById("doc-label").innerText = "The following have been found to be possible LI's within the file";
-      document.getElementById("doc-label-guide").innerText = "Confirm and copy them to your clipboard";
+      document.getElementById("doc-label-guide").innerText = "Confirm and copy them to your clipboard*";
 
       document.getElementById("doc-content").style.display = "block";
 

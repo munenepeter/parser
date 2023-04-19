@@ -1,0 +1,1606 @@
+[
+    {
+        "name": "Anti-Money Laundering and Counter-Terrorism Financing Act 2006",
+        "abbr": "AML/CFT Act"
+    },
+    {
+        "name": "ASIC Derivative Transaction Rules (Reporting) 2013",
+        "abbr": "ASIC Corporations Derivative Transaction Reporting, ASIC Derivative Transaction Rules, Derivative Transaction Rules 2013"
+    },
+    {
+        "name": "Australian Securities and Investments Commission Act 2001",
+        "abbr": "ASIC Act"
+    },
+    {
+        "name": "Banking Act 1959",
+        "abbr": "Banking Act 1959"
+    },
+    {
+        "name": "Corporations Act 2001",
+        "abbr": "CA 2001, Corporations Act"
+    },
+    {
+        "name": "National Consumer Credit Protection Act 2009",
+        "abbr": "NCCP Act, National Credit Act, No. 134, 2009"
+    },
+    {
+        "name": "Privacy Act 1998",
+        "abbr": "Privacy Act 1998"
+    },
+    {
+        "name": "Reserve Bank Act of 1959",
+        "abbr": "Reserve Bank Act, Reserve Bank Act 1959"
+    },
+    {
+        "name": "Financial Markets Money Laundering Act – Finanzmarkt-Geldwäschegesetz",
+        "abbr": "FM-GwG, Finanzmarkt-Geldwäschegesetz"
+    },
+    {
+        "name": "Kapitalmarktgesetz 2019",
+        "abbr": "Capital Market Act 2019, KMG 2019"
+    },
+    {
+        "name": "2018 Action Plan on Financing Sustainable Growth",
+        "abbr": "Action Plan for Financing Sustainable Growth, Action Plan ‘Financing Sustainable Growth, Action Plan ‘Financing Sustainable Growth’, Action Plan: Financing Sustainable Growth, COM/2018/097"
+    },
+    {
+        "name": "Accounting Directive",
+        "abbr": "2013/34, 2013/34/EU, Directive 2013/34, Directive 2013/34/EU"
+    },
+    {
+        "name": "Administrative Cooperation in the Field of Taxation",
+        "abbr": "2011/16, 2011/16/EU, Council Directive 2011/16, Council Directive 2011/16/EU"
+    },
+    {
+        "name": "Alternative Investment Fund Managers Directive (AIFMD)",
+        "abbr": "2011/61/EU, AIFM Directive, AIFMD, Alternative Investment Fund Managers Directive, Alternative Investment Fund Managers Directive 2011, Directive 2011/61/EU"
+    },
+    {
+        "name": "Anti-Money Laundering Directive IV (AMLD IV)",
+        "abbr": "2015/849, AMLD 4, AMLD IV, AMLD4, AMLDIV, Anti-Money Laundering Directive, Anti-Money Laundering Directive 4, Anti-Money Laundering Directive IV, Anti-Money Laundering Directive4, Anti-Money Laundering DirectiveIV, Directive (EU) 2015/849, Fourth Money Laundering Directive, MLD4, MLDIV"
+    },
+    {
+        "name": "Anti-Money Laundering Directive V (AMLD V)",
+        "abbr": "AMLD V, AMLD5, AMLDV, Anti-Money Laundering Directive 5, Anti-Money Laundering Directive V, Anti-Money Laundering Directive5, Anti-Money Laundering DirectiveV, Directive (EU) 2018/843, Fifth Money Laundering Directive, MLD 5, MLD V, MLD5, MLDV,2018/849"
+    },
+    {
+        "name": "As yet unproposed Anti-money laundering legislative package",
+        "abbr": "As yet unproposed Anti-money laundering legislative package"
+    },
+    {
+        "name": "As yet unproposed Digital Tax/ Levy",
+        "abbr": "As yet unproposed Digital Tax/ Levy"
+    },
+    {
+        "name": "As yet unproposed Sustainable Corporate Governance Legislation",
+        "abbr": "As yet unproposed Sustainable Corporate Governance Legislation"
+    },
+    {
+        "name": "Bank Recovery and Resolution Directive (BRRD)",
+        "abbr": "2014/59/EU, BRRD, Bank Recovery and Resolution Directive, Directive 2014/59/EU"
+    },
+    {
+        "name": "Bank Recovery and Resolution Directive 2 (BRRD2)",
+        "abbr": "2019/879, BRRD 2, BRRD II, BRRD2, BRRDII, Bank Recovery and Resolution Directive 2, Bank Recovery and Resolution Directive II, Bank Recovery and Resolution Directive2, Bank Recovery and Resolution DirectiveII, Directive (EU) 2019/879"
+    },
+    {
+        "name": "Benchmark Regulation (BMR)",
+        "abbr": "2016/1011/EU, BMR, Benchmark Regulation, Benchmarks Regulation, Regulation (EU) 2016/1011, Regulation 2016/1011/EU, 2016/2011"
+    },
+    {
+        "name": "Capital Markets Union (CMU)",
+        "abbr": "CMU, Capital Markets Union"
+    },
+    {
+        "name": "Capital Requirements Directive IV (CRD IV)",
+        "abbr": "2013/36/EU, CRD 4, CRD IV, CRD4, CRDIV, Capital Requirements Directive 2013/36/EU, Capital Requirements Directive 4, Capital Requirements Directive IV, Capital Requirements Directive4, Capital Requirements DirectiveIV, Directive 2013/36/EU"
+    },
+    {
+        "name": "Capital Requirements Directive V (CRD V)",
+        "abbr": "2019/878, CRD 5, CRD V, CRD5, CRDV, Capital Requirements Directive 5, Capital Requirements Directive V, Capital Requirements Directive5, Capital Requirements DirectiveV, Directive (EU) 2019/878"
+    },
+    {
+        "name": "Capital Requirements Regulation (CRR)",
+        "abbr": "575/2013, CRR, Capital Requirements Regulation, Capital Requirements Regulation 2013, Regulation (EU) No 575/2013"
+    },
+    {
+        "name": "Capital Requirements Regulation II (CRR II)",
+        "abbr": "2019/876, CRR 2, CRR II, CRR2, CRRII, Capital Requirements Regulation 2, Capital Requirements Regulation II, Capital Requirements Regulation2, Capital Requirements RegulationII, EU Regulation 2019/876, Revised Capital Requirements Regulation"
+    },
+    {
+        "name": "Central Counterparty Recovery and Resolution Regulation",
+        "abbr": "2016/0365 (COD), COM/2016/0856, Central Counterparty Recovery and Resolution"
+    },
+    {
+        "name": "Central Securities Depositories Regulation (CSDR)",
+        "abbr": "909/2014, CSDR, Central Securities Depositories Regulation, Regulation (EU) No 909/2014"
+    },
+    {
+        "name": "Council Directive (2016/2258)",
+        "abbr": "(EU) 2016/2258, 2016/2258, DIRECTIVE 2016/2258"
+    },
+    {
+        "name": "Credit Rating Agency Regulation (CRAR)",
+        "abbr": "CRA Regulation, CRAR, Credit Rating Agencies Regulation, Regulation (EU) No 462/2013"
+    },
+    {
+        "name": "Cross-border Distribution Directive (CBDD)",
+        "abbr": "Directive (EU) 2019/1160"
+    },
+    {
+        "name": "Cross-border Distribution Regulation (CBDR)",
+        "abbr": "Regulation (EU) 2019/1156"
+    },
+    {
+        "name": "Cross-Border Payment Regulation (CBPR)",
+        "abbr": "(2019/518), (924/2009), CBPR, Cross Border Payment Regulation, Cross-Border Payment Regulation"
+    },
+    {
+        "name": "Cybersecurity Act 2018",
+        "abbr": "2017/0225(COD), Cybersecurity Act"
+    },
+    {
+        "name": "Data Act 2021",
+        "abbr": "Data Act"
+    },
+    {
+        "name": "Deposit Guarantee Schemes Directive (DGSD)",
+        "abbr": "2014/49/EU, DGSD, Deposit Guarantee Schemes Directive"
+    },
+    {
+        "name": "Digital Operational Resilience Act (DORA)",
+        "abbr": "2020/0266(COD), COM(2020) 595 final, DORA, Digital Operational Resilience, Digital Operational Resilience Act, Regulation (EU) 2022/2554, 2022/2554"
+    },
+    {
+        "name": "Distance Marketing Directive",
+        "abbr": "2002/65/EC, Directive 2002/65/EC"
+    },
+    {
+        "name": "E-money Directive",
+        "abbr": "Directive 2009/110/EC, EMD, Electronic Money Directive"
+    },
+    {
+        "name": "E-Money Directive 2",
+        "abbr": "Directive 2009/110/EC, E-Money Directive II, E-Money Directive2, E-Money DirectiveII, EMD 2, EMD II, EMD2, EMDII, Electronic Money Directive 2"
+    },
+    {
+        "name": "EBA Regulation",
+        "abbr": "Regulation (EU) No 1093/2010"
+    },
+    {
+        "name": "EBA/ESMA Guidelines for complaints handling for the securities and banking sectors",
+        "abbr": "Guidelines for complaints handling for the securities and banking sectors"
+    },
+    {
+        "name": "EEA Agreement",
+        "abbr": "Agreement on the European Economic Area"
+    },
+    {
+        "name": "EIOPA Regulation",
+        "abbr": "Regulation (EU) No 1094/2010"
+    },
+    {
+        "name": "Electronic Identification and Trust Services Regulation (eIDAS Regulation)",
+        "abbr": "910/2014, Electronic Identification and Trust Services, Electronic Identification and Trust Services Regulation, Regulation (EU) No 910/2014, eIDAS"
+    },
+    {
+        "name": "Energy Taxation Directive (ETD)",
+        "abbr": "(2003/96/EC), ETD, Energy Taxation, Energy Taxation Directive"
+    },
+    {
+        "name": "Environmental and Energy State Aid Guidelines (EEAG)",
+        "abbr": "EEAG, Environmental and Energy State Aid Guidelines"
+    },
+    {
+        "name": "ePrivacy Directive",
+        "abbr": "Directive 2002/58/EC"
+    },
+    {
+        "name": "ePrivacy Regulation",
+        "abbr": "Directive 2002/58/EC, Regulation of the European Parliament and of the Council concerning the respect for private life and the protection of personal data in electronic communications and repealing Directive 2002/58/EC (Regulation on Privacy and Electronic Communications)"
+    },
+    {
+        "name": "ESA Regulation",
+        "abbr": "Regulation (EU) No 1095/2010, Regulation (EU) No 1095/2010 of the European Parliament and of the Council of 24 November 2010 establishing a European Supervisory Authority (European Securities and Markets Authority), amending Decision No 716/2009/EC and repealing Commission Decision 2009/77/EC"
+    },
+    {
+        "name": "EU Audit Regulations",
+        "abbr": "EU Audit Regulations"
+    },
+    {
+        "name": "EU Bank Creditor Hierarchy Directive",
+        "abbr": "(Directive (EU) 2017/2399)"
+    },
+    {
+        "name": "EU Cyber Sanctions",
+        "abbr": "2019/796, Council Regulation (EU) 2019/796"
+    },
+    {
+        "name": "EU Emissions Trading System (EU ETS)",
+        "abbr": "Directive 2003/87/EC, ETS, EU ETS, EU Emissions Trading System, Emissions Trading System, European Emissions Trading System, European Union  Emissions Trading System"
+    },
+    {
+        "name": "EU Financial Sanctions",
+        "abbr": "EU Financial Sanctions"
+    },
+    {
+        "name": "EU Green Bond Standard (EU GBS)",
+        "abbr": "EU GBS, EU Green Bond Standard, European Green Bond Standard, European Union Green Bond Standard, GBS, Green Bond Standard"
+    },
+    {
+        "name": "EU Sanctions List",
+        "abbr": "EU Sanctions List"
+    },
+    {
+        "name": "European Bank for Reconstruction and Development Act (EBRD)",
+        "abbr": "European Bank for Reconstruction and Development Act (EBRD)"
+    },
+    {
+        "name": "European Climate Law",
+        "abbr": "ECL, Regulation (EU) 2018/1999"
+    },
+    {
+        "name": "European Long-Term Investment Fund Regulation (ELTIF)",
+        "abbr": "Regulation (EU) 2015/760, Regulation (EU) 2015/760 of the European Parliament and of the Council of 29 April 2015 on European long-term investment funds"
+    },
+    {
+        "name": "European Market Infrastructure Regulation (EMIR)",
+        "abbr": "648/2012, EMIR, European Market Infrastructure Regulation, Regulation (EU) No 648/2012"
+    },
+    {
+        "name": "European Securities and Markets Authority Regulation (ESMA Regulation)",
+        "abbr": "1095/2010, ESMA, ESMA Regulation, European Securities and Markets Authority Regulation, Regulation (EU) No 1095/2010"
+    },
+    {
+        "name": "European Social Entrepreneurship Fund (EuSEF)",
+        "abbr": "Regulation (EU) No 346/2013, Regulation (EU) No 346/2013 of the European Parliament and of the Council of 17 April 2013 on European social entrepreneurship funds Text with EEA relevance,346/2015"
+    },
+    {
+        "name": "European Systemic Risk Board Regulation (ESRBR)",
+        "abbr": "ESRB, ESRB Regulation, ESRBR, European Systemic Risk Board Regulation, Regulation (EU) No 1092/2010, Regulation (EU) No 1092/2010 of the European Parliament and of the Council of 24 November 2010 on European Union macro-prudential oversight of the financial system and establishing a European Systemic Risk Board"
+    },
+    {
+        "name": "European Union Agency for Network and Information Security (ENISA)",
+        "abbr": "ENISA, European Union Agency for Network and Information Security"
+    },
+    {
+        "name": "European Union Financial Sanctions",
+        "abbr": "EU Financial Sanctions"
+    },
+    {
+        "name": "European Venture Capital Fund Regulation (EuVECA)",
+        "abbr": "Regulation (EU) No 345/2013, Regulation (EU) No 345/2013 of the European Parliament and of the Council of 17 April 2013 on European venture capital funds Text with EEA relevance"
+    },
+    {
+        "name": "Financial Collateral Directive",
+        "abbr": "Directive 2002/47/EC, Directive 2002/47/EC of the European Parliament and of the Council of 6 June 2002 on financial collateral arrangements"
+    },
+    {
+        "name": "Financial Conglomerates Directive (FICOD)",
+        "abbr": "FICOD, Financial Conglomerates Directive"
+    },
+    {
+        "name": "Funds Transfer Directive",
+        "abbr": "Directive (EU) 2015/847"
+    },
+    {
+        "name": "General Data Protection Regulation (GDPR)",
+        "abbr": "2016/679, GDPR, General Data Protection Regulation, Regulation (EU) 2016/679"
+    },
+    {
+        "name": "Insurance Distribution Directive (IDD)",
+        "abbr": "Directive (EU) 2016/97, Directive (EU) 2016/97 of the European Parliament and of the Council of 20 January 2016 on insurance distribution (recast), IDD, Insurance Distribution Directive"
+    },
+    {
+        "name": "Interchange Fee Regulation",
+        "abbr": "2015/751, Regulation (EU) 2015/751"
+    },
+    {
+        "name": "Law Enforcement Directive",
+        "abbr": "Directive (EU) 2016/680"
+    },
+    {
+        "name": "Malta Financial Services Authority Act",
+        "abbr": "Malta Financial Services Authority Act"
+    },
+    {
+        "name": "Market Abuse",
+        "abbr": "596/2014, MAD/MAR"
+    },
+    {
+        "name": "Markets in Crypto-assets (MICA)",
+        "abbr": "MICA, MICA, Markets in Crypto Assets, Markets in Crypto-Assets, Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on Markets in Crypto-assets, and amending Directive (EU) 2019/1937, Regulation on Markets in Crypto Assets (MiCA)"
+    },
+    {
+        "name": "Markets in Financial Instruments Directive (MiFID)",
+        "abbr": "2004/39/EC, Directive 2004/39/EC, MIFID, Markets in Financial Instruments Directive"
+    },
+    {
+        "name": "Markets in Financial Instruments Directive II (MIFID II)",
+        "abbr": "2014/65/EU, Directive 2014/65/EU, MIFID II, Markets in Financial Instruments Directive II"
+    },
+    {
+        "name": "Markets in Financial Instruments Regulation (MIFIR)",
+        "abbr": "600/2014,MIFIR,Markets in Financial Instruments Regulation "
+    },
+    {
+        "name": "Money Laundering Directive 2005",
+        "abbr": "Directive 2005/60/EC, Directive 2005/60/EC of the European Parliament and of the Council of 26 October 2005 on the prevention of the use of the financial system for the purpose of money laundering and terrorist financing"
+    },
+    {
+        "name": "Money Market Fund Regulation (MMFR)",
+        "abbr": "2017/1131, MMF, MMFR, Money Market Funds (MMFs) Regulation, Money Market Funds Regulation, Regulation (EU) 2017/1131"
+    },
+    {
+        "name": "Mortgage Credit Directive (MCD)",
+        "abbr": "Directive 2014/17/EU, MCD, Mortgage Credit Directive"
+    },
+    {
+        "name": "Network and Information Security Directive (NISD)",
+        "abbr": "Directive (EU) 2016/1148, EU 2016/1148, NIS, NIS Directive, NISD, Network and Information Security Directive, Security of Networks and Information Systems Directive"
+    },
+    {
+        "name": "Non-Financial Reporting Directive (NFRD)",
+        "abbr": "Directive 2014/95/EU, NFRD, Non Financial Reporting Directive, Non-Financial Reporting Directive"
+    },
+    {
+        "name": "Occupational Pensions Fund Directive",
+        "abbr": "Occupational Pensions Fund Directive"
+    },
+    {
+        "name": "Oversight Requirements for Systemically Important Payment Systems",
+        "abbr": "(EU) No 795/2014, Oversight Requirements for SIPs, Regulation of the European Central Bank (EU) No 795/2014, Regulation of the European Central Bank (EU) No 795/2014 of 3 July 2014 on oversight requirements for systemically important payment systems (ECB/2014/28)"
+    },
+    {
+        "name": "Packaged Retail and Insurance-based Investment Products (PRIIPs)",
+        "abbr": "1286/2014, PRIIPs, Packaged Retail and Insurance based Investment Products, Packaged Retail and Insurance-based Investment Products, Regulation (EU) No 1286/2014"
+    },
+    {
+        "name": "Packaged Retail Investment and Insurance-Based Investment Products (PRIIPs)",
+        "abbr": "PRIIPs"
+    },
+    {
+        "name": "Payment Services Directive (PSD)",
+        "abbr": "2007/64/EC, Directive 2007/64/EC, PSD, PSD1, Payment Services Directive"
+    },
+    {
+        "name": "Payment Services Directive 2 (PSD2)",
+        "abbr": "2015/2366, Directive (EU) 2015/2366, PSD II, PSD2, PSDII, Payment Services Directive 2, Payment Services Directive II, Payment Services Directive2, Payment Services DirectiveII"
+    },
+    {
+        "name": "Proposed  Pilot regime for market infrastructures based on distributed ledger technology",
+        "abbr": "COM(2020)594 final 2020/0267 (COD) 24.09.2020"
+    },
+    {
+        "name": "Proposed Directive on credit servicers, credit purchasers and the recovery of collateral",
+        "abbr": "COM(2018)135 final 2018/0063A (COD) 2018/0063B (COD) 14.03.2018"
+    },
+    {
+        "name": "Prospectus Regulation (PR)",
+        "abbr": "PR, Prospectus Regulation, Regulation (EU) 2017/1129"
+    },
+    {
+        "name": "Prospectus Directive (PD)",
+        "abbr": "PD, Prospectus Directive, 2003/71/EU"
+    },
+    {
+        "name": "Statutory Audit Regulation",
+        "abbr": "2014/56/EU"
+    },
+    {
+        "name": "Regulation (EU) No 833/2014 of 31 July 2014 concerning restrictive measures in view of Russia's actions destabilising the situation in Ukraine",
+        "abbr": "Regulation (EU) No 833/2014"
+    },
+    {
+        "name": "Regulation of the ECB on the Collection of Granular Credit and Credit Risk Data",
+        "abbr": "ECB/2016/13, Regulation (EU) 2016/867, Regulation (EU) 2016/867 of the European Central Bank of 18 May 2016 on the collection of granular credit and credit risk data (ECB/2016/13)"
+    },
+    {
+        "name": "Regulation on Privacy and Electronic Communications",
+        "abbr": "Regulation on Privacy and Electronic Communications"
+    },
+    {
+        "name": "Regulation on Wholesale Energy Market Integrity and Transparency (REMIT)",
+        "abbr": "1227/2011, REMIT, Regulation (EU) No 1227/2011, Regulation on Wholesale Energy Market Integrity and Transparency"
+    },
+    {
+        "name": "Reporting of Supervisory financial information",
+        "abbr": "ECB/2015/13, Regulation (EU) 2015/534, Regulation (EU) 2015/534 of the European Central Bank of 17 March 2015 on reporting of supervisory financial information (ECB/2015/13)"
+    },
+    {
+        "name": "Risk Finance Guidelines",
+        "abbr": "Risk Finance Guidelines"
+    },
+    {
+        "name": "Securities Financing Transactions Regulation (SFTR)",
+        "abbr": "2015/2365, Regulation (EU) 2015/2365, SFTR, Securities Financing Transactions Regulation"
+    },
+    {
+        "name": "Securitisation Regulation",
+        "abbr": "2017/2402, Regulation 2017/2402"
+    },
+    {
+        "name": "Settlement Finality Directive (SFD)",
+        "abbr": "Directive 98/26/EC, SFD, Settlement Finality Directive"
+    },
+    {
+        "name": "Shareholder Rights Directive (SRD)",
+        "abbr": "Directive 2007/36/EC, Directive 2007/36/EC of the European Parliament and of the Council of 11 July 2007 on the exercise of certain rights of shareholders in listed companies"
+    },
+    {
+        "name": "Shareholder Rights Directive II (SRD II)",
+        "abbr": "Directive (EU) 2017/828, Directive (EU) 2017/828"
+    },
+    {
+        "name": "Shareholder's Rights Directive",
+        "abbr": "SRD"
+    },
+    {
+        "name": "Short Selling Regulation (SSR)",
+        "abbr": "236/2012, Regulation (EU) No 236/2012, SSR, Short Selling Regulation"
+    },
+    {
+        "name": "Single Euro Payments Area (SEPA)",
+        "abbr": "SEPA, Single Euro Payments Area, 260/2012"
+    },
+    {
+        "name": "Single Resolution Mechanism Regulation (SRMR)",
+        "abbr": "806/2014, Regulation No 806/2014, SRM, SRMR, Single Resolution Mechanism, Single Resolution Mechanism Regulation"
+    },
+    {
+        "name": "Single Resolution Mechanism Regulation 2 (SRMR2)",
+        "abbr": "2019/877, Regulation (EU) 2019/877, SRM 2, SRM II, SRM2, SRMR 2, SRMR II, SRMR2, Single Resolution Mechanism 2, Single Resolution Mechanism II, Single Resolution Mechanism2, Single Resolution MechanismII"
+    },
+    {
+        "name": "Single Supervisory Mechanism (SSM)",
+        "abbr": "1024/2013, Regulation (EU) No 1024/2013, SSM, Single Supervisory Mechanism"
+    },
+    {
+        "name": "Solvency II Directive",
+        "abbr": "2009/138/EC, Directive 2009/138/EC, Omnibus II Directive, Solvency II"
+    },
+    {
+        "name": "Supervisory Fee Regulation",
+        "abbr": "ECB/2014/41, Regulation (EU) No 1163/2014, Regulation (EU) No 1163/2014 of the European Central Bank of 22 October 2014 on supervisory fees (ECB/2014/41)"
+    },
+    {
+        "name": "Supervisory Reporting of Institutions",
+        "abbr": "EBA/GL/2020/11"
+    },
+    {
+        "name": "Supervisory Review and Evaluation Process (SREP)",
+        "abbr": "SREP, Supervisory Review and Evaluation Process"
+    },
+    {
+        "name": "Sustainable Finance Disclosure Regulation (SFDR)",
+        "abbr": "Regulation (EU) 2019/2088, Regulation (EU) 2019/2088 of the European Parliament and of the Council of 27 November 2019 on sustainability‐related disclosures in the financial services sector, SFDR, Sustainable Finance Disclosure Regulation"
+    },
+    {
+        "name": "Target2",
+        "abbr": "2014/533/EU, 2014/533/EU: Decision of the European Central Bank of 13 August 2014 on the identification of TARGET2 as a systemically important payment system pursuant to Regulation (EU) No 795/2014 on oversight requirements for systemically important payment systems (ECB/2014/35), ECB/2014/35"
+    },
+    {
+        "name": "Targeted longer-term refinancing operation II (TLTRO II)",
+        "abbr": "TLTRO II,  TLTRO-III"
+    },
+    {
+        "name": "Targeted longer-term refinancing operation III (TLTRO III)",
+        "abbr": "TLTRO III"
+    },
+    {
+        "name": "Taxonomy Regulation (ESG)",
+        "abbr": "ESG, Taxonomy Regulation,Regulation (EU) 2020/852,2020/852, EU Taxonomy"
+    },
+    {
+        "name": "Transparency Directive (TD)",
+        "abbr": "Directive 2004/109/EC, TD, Transparency Directive, Transparency Regulation, 2007/14/EC"
+    },
+    {
+        "name": "Treaty on European Union (TEU)",
+        "abbr": "TEU"
+    },
+    {
+        "name": "Treaty on the Functioning of the European Union (TFEU)",
+        "abbr": "TFEU, Treaty of Rome"
+    },
+    {
+        "name": "Undertakings for Collective Investment in Transferable Securities (UCITS)",
+        "abbr": "UCITS, Undertakings for Collective Investment In Transferable Securities, 2009/65/EU"
+    },
+    {
+        "name": "Whistleblowers Directive",
+        "abbr": "Whistleblowers Directive"
+    },
+    {
+        "name": "Winding-up Directive",
+        "abbr": "Directive 2001/24/EC, Directive 2001/24/EC of the European Parliament and of the Council of 4 April 2001 on the reorganisation and winding up of credit institutions, Winding Up Directive"
+    },
+    {
+        "name": "Wire Transfer Regulation",
+        "abbr": "Regulation (EU) 2015/847, Regulation (EU) 2015/847 of the European Parliament and of the Council of 20 May 2015 on information accompanying transfers of funds and repealing Regulation (EC) No 1781/2006, WTR"
+    },
+    {
+        "name": "Anti-Money Laundering and Counter-Terrorist Financing Ordinance",
+        "abbr": "AMLO, Anti-Money Laundering and Counter-Terrorist Financing (Financial Institutions) Ordinance"
+    },
+    {
+        "name": "Banking Capital Rules",
+        "abbr": "Cap. 628B, LAC Rules"
+    },
+    {
+        "name": "Banking Liquidity (Amendment) Rules 2019",
+        "abbr": "BLAR, Banking Liquidity Amendment Rules, Banking Liquidity Amendment Rules 2019"
+    },
+    {
+        "name": "Banking Ordinance",
+        "abbr": "BO"
+    },
+    {
+        "name": "Insurance Ordinance",
+        "abbr": "Insurance Ordinance"
+    },
+    {
+        "name": "Securities and Futures Ordinance",
+        "abbr": "SFO"
+    },
+    {
+        "name": "2000 ISDA Definitions",
+        "abbr": "2000 Definitions"
+    },
+    {
+        "name": "2006 ISDA Definitions",
+        "abbr": "2006 Definitions"
+    },
+    {
+        "name": "2014 ISDA Credit Derivatives Definitions",
+        "abbr": "2014 ISDA Credit Derivatives Definitions"
+    },
+    {
+        "name": "Base erosion and profit shifting (OECD/G20 BEPS)",
+        "abbr": "Base erosion and profit shifting (OECD/G20 BEPS)"
+    },
+    {
+        "name": "Basel Committee on Banking Supervision Standard 239 (BCBS 239)",
+        "abbr": "Basel Committee on Banking Supervision Standard 239 (BCBS 239)"
+    },
+    {
+        "name": "Basel Committee on Banking Supervision Standard 240 (BCBS 240)",
+        "abbr": "Basel Committee on Banking Supervision Standard 240 (BCBS 240)"
+    },
+    {
+        "name": "Basel II",
+        "abbr": "Basel II"
+    },
+    {
+        "name": "Basel III",
+        "abbr": "Basel III"
+    },
+    {
+        "name": "BCBS / IOSCO Framework for Margin Requirements for Non-Centrally Cleared Derivatives",
+        "abbr": "BCBS / IOSCO Margin Requirements for Non-Centrally Cleared Derivatives, BCBS/IOSCO Framework for Margin Requirements for Non-Centrally Cleared Derivatives, Framework for Margin Requirements for Non-Centrally Cleared Derivatives, The Basel Committee on Banking Supervision, Board of the International Organization of Securities Commissions, Margin Requirements for Non-Centrally Cleared Derivatives"
+    },
+    {
+        "name": "BCBS Principles for effective risk data aggregation and risk reporting",
+        "abbr": "BCBS 239, Principles for effective risk data aggregation and risk reporting"
+    },
+    {
+        "name": "Common Reporting Standards",
+        "abbr": "CRS"
+    },
+    {
+        "name": "Core Principles for Effective Banking Supervision (BCBS 230)",
+        "abbr": "Core Principles for Effective Banking Supervision (BCBS 230)"
+    },
+    {
+        "name": "DGI-2 - G20 Data Gaps Initiative",
+        "abbr": "DGI-2 - G20 Data Gaps Initiative"
+    },
+    {
+        "name": "FATF International Standards on Combating Money Laundering and the financing of Terrorism & Proliferation (2012)",
+        "abbr": "FATF International Standards on Combating Money Laundering and the financing of Terrorism & Proliferation"
+    },
+    {
+        "name": "FX Global Code",
+        "abbr": "FX Global Code"
+    },
+    {
+        "name": "G20 Communique 2018 (Buenos Aires)",
+        "abbr": "G20 Communique 2018 (Buenos Aires)"
+    },
+    {
+        "name": "G20 Communique April 2009 (London)",
+        "abbr": "G20 Communique April 2009 (London)"
+    },
+    {
+        "name": "G20 Communique June 2019 (Fukoka)",
+        "abbr": "G20 2019 Fukoka, G20 Communique June 2019"
+    },
+    {
+        "name": "G20 Communique November 2010 (Seoul)",
+        "abbr": "G20 Communique November 2010 (Seoul)"
+    },
+    {
+        "name": "G20 Communique November 2014 (Brisbane)",
+        "abbr": "G20 Communique November 2014 (Brisbane)"
+    },
+    {
+        "name": "G20 Communique September 2009 (Pittsburgh)",
+        "abbr": "G20 Communique September 2009"
+    },
+    {
+        "name": "G20 Communique September 2016 (Hangzou Summit)",
+        "abbr": "G20 Communique September 2016 (Hangzou Summit)"
+    },
+    {
+        "name": "G20 Declaration July 2017 (Hamburg)",
+        "abbr": "G20 Declaration July 2017 (Hamburg)"
+    },
+    {
+        "name": "G20 Declaration November 2011 (Cannes)",
+        "abbr": "G20 Declaration November 2011 (Cannes)"
+    },
+    {
+        "name": "G20 Finance Ministers and Central Bank Governors Meeting Communique March 2017",
+        "abbr": "G20 Finance Ministers and Central Bank Governors Meeting Communique March 2017"
+    },
+    {
+        "name": "G7 fundamental elements of Cyber Security for the Financial Sector",
+        "abbr": "G7 fundamental elements of Cyber Security for the Financial Sector"
+    },
+    {
+        "name": "Harmonisation of Key OTC derivatives data elements",
+        "abbr": "Harmonisation of Key OTC derivatives data elements"
+    },
+    {
+        "name": "Interbank Offered Rate Transition",
+        "abbr": "IBOR Transition, Transition from IBOR, Transition from LIBOR"
+    },
+    {
+        "name": "Interest Rate Risk  in the Banking Book (IRRBB)",
+        "abbr": "Interest Rate Risk  in the Banking Book (IRRBB)"
+    },
+    {
+        "name": "International Banking Act 1978",
+        "abbr": "International Banking Act 1978"
+    },
+    {
+        "name": "International Financial Reporting Standards",
+        "abbr": "IFRS"
+    },
+    {
+        "name": "International Standards on Combating Money Laundering and the Financing of Terrorism and Proliferation (2012)",
+        "abbr": "International Standards on Combating Money Laundering and the Financing of Terrorism and Proliferation (2012)"
+    },
+    {
+        "name": "IOSCO Objectives and Principles of Securities Market Regulation",
+        "abbr": "Objectives and Principles of Securities"
+    },
+    {
+        "name": "IOSCO Principles for Financial Benchmarks",
+        "abbr": "Principles   for   Financial Benchmarks"
+    },
+    {
+        "name": "IOSCO Principles of Auditor Indepedence and the Role of Coporate Governance in Monitering an Auditor's Independence",
+        "abbr": "IOSCO Principles of Auditor Indepedence and the Role of Coporate Governance in Monitering an Auditor's Independence"
+    },
+    {
+        "name": "IOSCO Principles on Client Identification and Beneficial Ownership for the Securities Industry of 2004",
+        "abbr": "IOSCO Principles on Client Identification and Beneficial Ownership for the Securities Industry, Principles on Client Identification and Beneficial Ownership for the Securities"
+    },
+    {
+        "name": "ISSA Financial Crime Compliance Principles for Securities Custody and Settlement",
+        "abbr": "Financial Crime Compliance Principles for Securities Custody and Settlement, Financial Crime Compliance Principles forSecurities Custody and Settlement"
+    },
+    {
+        "name": "Key Attributes of Effective Resolution Regimes for Financial Institutions",
+        "abbr": "Key Attributes of Effective Resolution Regimes for Financial Institutions"
+    },
+    {
+        "name": "OECD DAC Blended Finance Principles",
+        "abbr": "OECD DAC Blended Finance Principles"
+    },
+    {
+        "name": "Principles and Standards on Sound Compensation Practices",
+        "abbr": "Principles and Standards on Sound Compensation Practices"
+    },
+    {
+        "name": "Principles for Financial Market Infrastructures",
+        "abbr": "PFMI"
+    },
+    {
+        "name": "Principles for Responsible Banking",
+        "abbr": "Principles for Responsible Banking"
+    },
+    {
+        "name": "Principles for Responsible Investment (PRI)",
+        "abbr": "Principles for Responsible Investment (PRI)"
+    },
+    {
+        "name": "Principles for Sound Liquid Risk Management and Supervision",
+        "abbr": "Principles for Sound Liquid Risk Management and Supervision"
+    },
+    {
+        "name": "Principles for the Regulation and Supervision of Commodity Derivatives Market",
+        "abbr": "Principles for the Regulation and Supervision of Commodity Derivatives Market"
+    },
+    {
+        "name": "Principles of Corporate Governance",
+        "abbr": "Principles of Corporate Governance"
+    },
+    {
+        "name": "Project Helvetia",
+        "abbr": "Project Helvetia"
+    },
+    {
+        "name": "Standard on Automatic Exchange of Information (OECD/G20 AEOI)",
+        "abbr": "Standard on Automatic Exchange of Information (OECD/G20 AEOI)"
+    },
+    {
+        "name": "Ten Principles of the UN Global Compact",
+        "abbr": "Ten Principles of the UN Global Compact"
+    },
+    {
+        "name": "UN Sustainable Development Goals (SDGs)",
+        "abbr": "UN Sustainable Development Goals (SDGs)"
+    },
+    {
+        "name": "United Nations Sanctions",
+        "abbr": "United Nations Sanctions"
+    },
+    {
+        "name": "Voluntary Principles for Debt Transparency",
+        "abbr": "Voluntary Principles for Debt Transparency"
+    },
+    {
+        "name": "Wolfsberg Group of International Financial Institutions Guidance on Politically Exposed Persons (PEPs) 2017",
+        "abbr": "Wolfsberg Group of International Financial Institutions Guidance on Politically Exposed Persons (PEPs) 2017"
+    },
+    {
+        "name": "Wolfsberg Group of International Financial Institutions Guidance on the Risk Based Approach (RBA) to Managing Money Laundering Risks 2006",
+        "abbr": "Wolfsberg Group of International Financial Institutions Guidance on the Risk Based Approach (RBA) to Managing Money Laundering Risks 2006"
+    },
+    {
+        "name": "Electronic Money Regulations 2011",
+        "abbr": "EMR, EMR 2011, EMRs"
+    },
+    {
+        "name": "Banking Act",
+        "abbr": "Banking Act"
+    },
+    {
+        "name": "Credit Information Use and Protection Act",
+        "abbr": "Use and Protection of Credit Information Act"
+    },
+    {
+        "name": "Electronic Financial Transactions Act",
+        "abbr": "Electronic Financial Transactions Act"
+    },
+    {
+        "name": "Special Act on Financial Innovation Support",
+        "abbr": "Special Act on Financial Innovation Support"
+    },
+    {
+        "name": "Financial Markets Amendment Act 2019",
+        "abbr": "Wijzigingswet financiële markten 2019"
+    },
+    {
+        "name": "Financial Supervision Act",
+        "abbr": "WFT, Wet op het financieel toezicht"
+    },
+    {
+        "name": "Law for the Prevention of Money Laundering and Terrorist Financing",
+        "abbr": "WWFT"
+    },
+    {
+        "name": "Anti-Money Laundering and Counter-Terrorism Financing Amendment Act 2017",
+        "abbr": "The AML/CFT Amendment Act 2017"
+    },
+    {
+        "name": "Manual of Regulations for Banks",
+        "abbr": "MORB"
+    },
+    {
+        "name": "Manual of Regulations for Non-Bank Financial Institutions",
+        "abbr": "MORNBFI"
+    },
+    {
+        "name": "Monetary Authority of Singapore Act (MAS Act)",
+        "abbr": "MAS Act"
+    },
+    {
+        "name": "Monetary Authority of Singapore Control and Resolution of Financial Institutions Regulations 2013",
+        "abbr": "G.N. No. S 235/2013, Monetary Authority of Singapore (Control and Resolution of Financial Institutions) Regulations 2013"
+    },
+    {
+        "name": "Securities and Futures Act (SFA)",
+        "abbr": "SFA"
+    },
+    {
+        "name": "Technology Risk Management Guidelines (TRM Guidelines)",
+        "abbr": "Technology Risk Management Guidelines (TRM Guidelines)"
+    },
+    {
+        "name": "Anti-Money Laundering Act",
+        "abbr": "AMLA"
+    },
+    {
+        "name": "Capital Adequacy Ordinance",
+        "abbr": "CAO"
+    },
+    {
+        "name": "Financial Market Infrastructure Act",
+        "abbr": "FMIA, Finanzmarktinfrastrukturgesetz, FinfraG"
+    },
+    {
+        "name": "FINMA Anti-Money Laundering Ordinance",
+        "abbr": "AMLO-FINMA"
+    },
+    {
+        "name": "Swiss Financial Market Supervisory Authority Regulation",
+        "abbr": "FINMA Regulation"
+    },
+    {
+        "name": "Anti-Terrorism, Crime and Security Act 2001",
+        "abbr": "Anti-Terrorism, Crime and Security Act"
+    },
+    {
+        "name": "Bank of England and Financial Services Act 2016",
+        "abbr": "Bank of England and Financial Services Act"
+    },
+    {
+        "name": "Banking Act 2009",
+        "abbr": "Banking Act"
+    },
+    {
+        "name": "Banking Act 2009 (Fees) Regulations 2018",
+        "abbr": "Banking Act"
+    },
+    {
+        "name": "Banking Reform Act",
+        "abbr": "Financial Services  Act 2013, Financial Services (Banking Reform) Act 2013"
+    },
+    {
+        "name": "The Debt Respite Scheme (Breathing Space Moratorium and Mental Health Crisis Moratorium) (England and Wales) Regulations 2020",
+        "abbr": "Breathing Space"
+    },
+    {
+        "name": "Companies Act 2006",
+        "abbr": "Companies Act"
+    },
+    {
+        "name": "Corporate Insolvency and Governance Act 2020",
+        "abbr": "Corporate Insolvency and Governance Act"
+    },
+    {
+        "name": "Counter Terrorism Act 2008",
+        "abbr": "Counter Terrorism Act"
+    },
+    {
+        "name": "Crime and Courts Act 2013",
+        "abbr": "Crime and Courts Act"
+    },
+    {
+        "name": "Criminal Finances Act 2017",
+        "abbr": "Criminal Finances Act"
+    },
+    {
+        "name": "Data Protection Act",
+        "abbr": "Data Protection Act"
+    },
+    {
+        "name": "Data Reporting Services Regulations 2017",
+        "abbr": "Data Reporting Services Regulations"
+    },
+    {
+        "name": "EEA Passport Rights (Amendment, et., and Transitional Provisions) (EU Exit) Regulations 2018",
+        "abbr": "EEA Passport Rights"
+    },
+    {
+        "name": "Electronic Money Regulations",
+        "abbr": "E-Money Regulations"
+    },
+    {
+        "name": "Enterprise Act 2002",
+        "abbr": "Enterprise Act"
+    },
+    {
+        "name": "Enterprise and Regulatory Reform Act 2013",
+        "abbr": "Enterprise and Regulatory Reform Act"
+    },
+    {
+        "name": "European Union Act 2018",
+        "abbr": "EU Withdrawal Act, European Union (Withdrawal) Act 2018, European Union Act, European Union Withdrawal Act, Withdrawal Act"
+    },
+    {
+        "name": "FCA Handbook",
+        "abbr": "FCA Handbook"
+    },
+    {
+        "name": "Finance Act 2006",
+        "abbr": "FA 2006, Finance Act"
+    },
+    {
+        "name": "Finance Act 2008",
+        "abbr": "FA 2008, Finance Act"
+    },
+    {
+        "name": "Finance Act 2011",
+        "abbr": "FA 2011, Finance Act"
+    },
+    {
+        "name": "Finance Act 2018",
+        "abbr": "FA 2018, Finance Act"
+    },
+    {
+        "name": "Financial Guidance and Claims Act 2018",
+        "abbr": "Financial Guidance and Claims Act"
+    },
+    {
+        "name": "Financial Market Infrastructure Special Administration Regime",
+        "abbr": "FI SAR"
+    },
+    {
+        "name": "Financial Regulators Powers (Technical Standards) (Amendment etc.) (EU Exit) Regulations 2018",
+        "abbr": "Financial Regulators Powers"
+    },
+    {
+        "name": "Financial Services Act 2012",
+        "abbr": "Financial Services Act"
+    },
+    {
+        "name": "Financial Services and Markets Act 2000",
+        "abbr": "FSMA, Financial Services and Markets Act"
+    },
+    {
+        "name": "Financial Services Compensation Scheme",
+        "abbr": "FSCS"
+    },
+    {
+        "name": "Freedom of Information Act UK",
+        "abbr": "FOIA, Freedom of Information Act, Freedom of Information Act 2000"
+    },
+    {
+        "name": "Funds Transfer Regulation (FTR)",
+        "abbr": "Funds Transfer Regulation"
+    },
+    {
+        "name": "Human Trafficking and Exploitation (Scotland) Act 2015",
+        "abbr": "Human Trafficking and Exploitation Act"
+    },
+    {
+        "name": "Immigration Act 2014",
+        "abbr": "Immigration Act"
+    },
+    {
+        "name": "Immigration Act 2016",
+        "abbr": "Immigration Act"
+    },
+    {
+        "name": "Insolvency Act 1986 (UK)",
+        "abbr": "Insolvency Act"
+    },
+    {
+        "name": "Insurance Distribution Directive (IDD)",
+        "abbr": "Insurance Distribution Directive"
+    },
+    {
+        "name": "International Securities Market Rulebook (ISM)",
+        "abbr": "ISM, ISM Rulebook, International Securities Market Rulebook"
+    },
+    {
+        "name": "International Tax Compliance Regulations 2015",
+        "abbr": "International Tax Compliance Regulation"
+    },
+    {
+        "name": "International Tax Compliance Regulations 2016",
+        "abbr": "International Tax Compliance Regulation"
+    },
+    {
+        "name": "International Tax Compliance Regulations 2017",
+        "abbr": "International Tax Compliance Regulation"
+    },
+    {
+        "name": "Money Laundering and Terrorist Financing (Amendment) (EU Exit) Regulations 2020 - (United Kingdom)",
+        "abbr": "Money Laundering and Terrorist Financing (Amendment) (EU Exit) Regulations 2020 - (United Kingdom)"
+    },
+    {
+        "name": "Money Laundering and Terrorist Financing (Amendment) Regulations 2019",
+        "abbr": "Money Laundering and Terrorist Financing Regulation"
+    },
+    {
+        "name": "Money Laundering Regulation 2007",
+        "abbr": "Money Laundering Regulation"
+    },
+    {
+        "name": "Network and Information Systems Regulations 2018",
+        "abbr": "NIS Regulation, NIS Regulation 2018, Network and Information Systems Regulation"
+    },
+    {
+        "name": "Payment Accounts Directive",
+        "abbr": "Payment Accounts Directive"
+    },
+    {
+        "name": "Payment Services Regulations 2017",
+        "abbr": "PSR, Payment Services Regulations"
+    },
+    {
+        "name": "Policing and Crime Act 2017",
+        "abbr": "Policing and Crime Act"
+    },
+    {
+        "name": "Proceeds of Crime Act 2002 (POCA)",
+        "abbr": "POCA, Proceeds of Crime Act"
+    },
+    {
+        "name": "Prudential Regulation Authority Rulebook",
+        "abbr": "PRA Rulebook"
+    },
+    {
+        "name": "Regulated Activities Order (RAO)",
+        "abbr": "RAO, Regulated Activities Order"
+    },
+    {
+        "name": "Resolvability Assessment Framework (RAF)",
+        "abbr": "RAF, Resolvability Assessment Framework"
+    },
+    {
+        "name": "Retirement Outcomes Review",
+        "abbr": "Retirement Outcomes Review"
+    },
+    {
+        "name": "Sanctions and Anti-Money Laundering Act 2018",
+        "abbr": "Sanctions and Anti-Money Laundering Act"
+    },
+    {
+        "name": "Scottish National Investment Bank Act 2020",
+        "abbr": "Scottish National Investment Bank Act"
+    },
+    {
+        "name": "Securitisation (Amendment) (EU Exit) Regulations 2019",
+        "abbr": "Securitisation Regulation"
+    },
+    {
+        "name": "Senior Managers and Certification Regime",
+        "abbr": "SM&CR, SMCR"
+    },
+    {
+        "name": "Serious Crime Act 2015",
+        "abbr": "Serious Crime Act"
+    },
+    {
+        "name": "Small and Medium Sized Business (Credit Information) Regulations 2015",
+        "abbr": "Small and Medium Sized Business Regulation"
+    },
+    {
+        "name": "Sterling Overnight Index Average (SONIA)",
+        "abbr": "SONIA, Sterling Overnight Index Average"
+    },
+    {
+        "name": "Terrorism Act 2000",
+        "abbr": "Terrorism Act"
+    },
+    {
+        "name": "Terrorism Act 2006",
+        "abbr": "Terrorism Act"
+    },
+    {
+        "name": "Terrorist Asset-Freezing Act of 2010",
+        "abbr": "Temporary Provisions Act, Terrorist Asset-Freezing (Temporary Provisions) Act, Terrorist Asset-Freezing (Temporary Provisions) Act 2010, Terrorist Asset-Freezing Act 2010"
+    },
+    {
+        "name": "The Data Protection (Charges and Information) Regulations 2018",
+        "abbr": "Data Protection Regulation"
+    },
+    {
+        "name": "The Electronic Money, Payment Services and Payment Systems (Amendment and Transitional Provisions) (EU Exit) Regulations 2018",
+        "abbr": "Electronic Money, Payment Services and Payment Systems Regulation"
+    },
+    {
+        "name": "The Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017",
+        "abbr": "MLR, MLR 2017, MLRs, Money Laundering, Terrorist Financing and Transfer of Funds Regulation"
+    },
+    {
+        "name": "Uncleared Margin Rules (UMR)",
+        "abbr": "UMR, Uncleared Margin Rules"
+    },
+    {
+        "name": "United Kingdom Financial Sanctions List",
+        "abbr": "UK Financial Sanctions, UK Financial Sanctions List"
+    },
+    {
+        "name": "Anti-Money Laundering Act of 2020 (AMLA)",
+        "abbr": "Anti-Money Laundering Act of 2020 (AMLA)"
+    },
+    {
+        "name": "Asset Management Advisory Committee (AMAC)",
+        "abbr": "Asset Management Advisory Committee (AMAC)"
+    },
+    {
+        "name": "Bank Holding Company Act",
+        "abbr": "BHCA"
+    },
+    {
+        "name": "Bank Secrecy Act",
+        "abbr": "BSA, Bank Secrecy Act of 1970"
+    },
+    {
+        "name": "Code of Federal Regulations",
+        "abbr": "CFR"
+    },
+    {
+        "name": "Commodity Exchange Act",
+        "abbr": "CEA"
+    },
+    {
+        "name": "Community Reinvestment Act",
+        "abbr": "Community Reinvestment Act"
+    },
+    {
+        "name": "Consolidated Audit Trail Rule 613",
+        "abbr": "CAT, Consolidated Audit Trail, Consolidated Audit Trail - CAT (SEC rule 613), SEC Rule 613"
+    },
+    {
+        "name": "Consumer Leasing Act",
+        "abbr": "CLA"
+    },
+    {
+        "name": "Cybersecurity and Financial System Resilience Act of 2019",
+        "abbr": "H.R.4458, H.R.4458 — 116th Congress (2019-2020)"
+    },
+    {
+        "name": "Economic Growth and Regulatory Paperwork Reduction Act of 1996",
+        "abbr": "EGRPRA"
+    },
+    {
+        "name": "Economic Growth, Regulatory Relief and Consumer Protection Act",
+        "abbr": "EGRRCPA"
+    },
+    {
+        "name": "Federal Deposit Insurance Act",
+        "abbr": "FDIA"
+    },
+    {
+        "name": "Federal Reserve Act",
+        "abbr": "Federal Reserve Act"
+    },
+    {
+        "name": "FINRA Rulebook",
+        "abbr": "FINRA Rule"
+    },
+    {
+        "name": "Foreign Account Tax Compliance Act",
+        "abbr": "FATCA"
+    },
+    {
+        "name": "Investment Advisors Act",
+        "abbr": "IAA"
+    },
+    {
+        "name": "Investment Company Act",
+        "abbr": "ICA"
+    },
+    {
+        "name": "Securities Act of 1933",
+        "abbr": "1933 Act, Federal Securities Act, Truth in Securities"
+    },
+    {
+        "name": "Securities Exchange Act",
+        "abbr": "1934 Act, 34 Act, Exchange Act, SEA, SEA of 1934"
+    },
+    {
+        "name": "Securities Investor Protection Act of 1970 (SIPA)",
+        "abbr": "Securities Investor Protection Act of 1970 (SIPA)"
+    },
+    {
+        "name": "The Dodd-Frank Wall Street Reform and Consumer Protection Act",
+        "abbr": "Dodd–Frank, Dodd–Frank Act"
+    },
+    {
+        "name": "Truth in Lending Act",
+        "abbr": "TILA"
+    },
+    {
+        "name": "United States Financial Sanctions",
+        "abbr": "US Financial Sanctions"
+    },
+    {
+        "name": "Manager-In-Charge",
+        "abbr": "Manager in charge (MIC), Manager-In-Charge (\"MIC\"), MIC regime"
+    },
+    {
+        "name": "Multiannual Financial Framework (MFF)",
+        "abbr": "MFF"
+    },
+    {
+        "name": "Treasury Laws Amendment (Banking Executive Accountability and Related Measures) Act 2018",
+        "abbr": "Treasury Laws Amendment (Banking Executive Accountability and Related Measures) Act 2018"
+    },
+    {
+        "name": "Payment Systems Act B.E. 2560 (2017)",
+        "abbr": "Payment Systems Act B.E. 2560 (2017)"
+    },
+    {
+        "name": "Bank of England Act 1998",
+        "abbr": "Bank of England Act"
+    },
+    {
+        "name": "Data Privacy Act of 2012",
+        "abbr": "Data Privacy Act of 2012"
+    },
+    {
+        "name": "Union Law No. (10) Of 1980 Concerning The Central Bank, The Monetary System And Organisation Of Banking",
+        "abbr": "Union Law No 10,Union Law No. (10)"
+    },
+    {
+        "name": "The Money Laundering and Terrorist Financing (Amendment) (High-Risk Countries) Regulations 2021",
+        "abbr": "SI 2021/392"
+    },
+    {
+        "name": "Corporate Sustainability Reporting Directive - CSRD",
+        "abbr": "CSRD, Corporate Sustainability Reporting Directive"
+    },
+    {
+        "name": "Artificial Intelligence Act",
+        "abbr": "Artificial Intelligence Act"
+    },
+    {
+        "name": "IAC - Individual Accountability and Conduct",
+        "abbr": "IAC, Individual Accountability and Conduct"
+    },
+    {
+        "name": "Global Anti-Corruption Sanctions Regulations 2021",
+        "abbr": "Global Anti-Corruption Sanctions Regulations 2021"
+    },
+    {
+        "name": "UK Emission Trading Scheme (UK ETS)",
+        "abbr": "UK ETS, UK Emission Trading Scheme"
+    },
+    {
+        "name": "Financial Services Act 2021",
+        "abbr": "Financial Services Act 2021"
+    },
+    {
+        "name": "Finance Act 2020",
+        "abbr": "Finance Act 2020"
+    },
+    {
+        "name": "Finance Act 2021",
+        "abbr": "Finance Act 2021"
+    },
+    {
+        "name": "Electronic Transactions Act (ETA)",
+        "abbr": "Electronic Transactions Act"
+    },
+    {
+        "name": "Fundamentally Understanding the Usability and Realistic Evolution of Artificial Intelligence Act of 2020",
+        "abbr": "FUTURE of Artificial Intelligence Act of 2020"
+    },
+    {
+        "name": "German Stock Exchange Act (Börsengesetz)",
+        "abbr": "Börsengesetz,Stock Exchange Act"
+    },
+    {
+        "name": "German Financial Market Integrity Strengthening Act (FISG - Finanzmarktintegritätsstärkungsgesetz)",
+        "abbr": "FISG,Finanzmarktintegritätsstärkungsgesetz,Financial Market Integrity Strengthening Act"
+    },
+    {
+        "name": "German Electronic Securities Act (Gesetz zur Einführung elektronischer Wertpapiere – eWpG)",
+        "abbr": "eWpG,Electronic Securities Act"
+    },
+    {
+        "name": "Data Act (European Union)",
+        "abbr": "Data Act, EU Data Act"
+    },
+    {
+        "name": "Data Governance Act (DGA)",
+        "abbr": "DGA,Data Governance Act"
+    },
+    {
+        "name": "Moneylenders Act",
+        "abbr": "Moneylenders Act"
+    },
+    {
+        "name": "Payment Accounts Directive",
+        "abbr": "2014/92/EU"
+    },
+    {
+        "name": "AMLD VI - Anti-Money Laundering Directive VI",
+        "abbr": "AMLD VI"
+    },
+    {
+        "name": "Investment Firm Regulation",
+        "abbr": "IFR, 2019/2033"
+    },
+    {
+        "name": "Investment Firm Directive",
+        "abbr": "IFD, 2019/2034"
+    },
+    {
+        "name": "Credit Rating Agencies Regulation",
+        "abbr": "CRAR, 1060/2009"
+    },
+    {
+        "name": "Alternative Investment Fund Managers Regulation",
+        "abbr": "AIFMR, 231/2013"
+    },
+    {
+        "name": "EU Low Carbon Benchmark Regulation",
+        "abbr": "Low-Carbon Benchmark, Low-Carbon Benchmark Regulation, 2019/2089"
+    },
+    {
+        "name": "Clarifying Lawful Overseas Use of Data Act (CLOUD Act)",
+        "abbr": "CLOUD ACT, Clarifying Lawful Overseas Use of Data Act"
+    },
+    {
+        "name": "Preventing Money Laundering and Terrorist Financing (Anti-Money Laundering Act) (Finland)",
+        "abbr": "444/2017, Preventing Money Laundering and Terrorist Financing"
+    },
+    {
+        "name": "Consolidated Law on Banking (TUB) - Legislative Decree 385/1993 – [Italy]",
+        "abbr": "Consolidated Law on Banking (TUB) - Legislative Decree 385/1993 – [Italy],Legislative Decree 385/1993,385/1993,Consolidated Law on Banking,TUB"
+    },
+    {
+        "name": "UK General Data Protection Regulation (UK GDPR)",
+        "abbr": "UK GDPR"
+    },
+    {
+        "name": "Data Protection Act 2018",
+        "abbr": "UK Data Protection"
+    },
+    {
+        "name": "National Security and Investment Act",
+        "abbr": "National Security & Investment Act"
+    },
+    {
+        "name": "Thailand Cybersecurity Act B.E. 2564 (2021)",
+        "abbr": "B.E. 2564"
+    },
+    {
+        "name": "Law Number 8 of 2010 concerning the Prevention and Eradication of Money Laundering Money (Undang-Undang Nomor 8 Tahun 2010 tentang Pencegahan dan Pemberantasan TPPU (UU TPPU)),UU TPPU,Law Number 8 of 2010",
+        "abbr": "UU TPPU,Law Number 8 of 2010"
+    },
+    {
+        "name": "Treasury Laws Amendment (2021 Measures No. 1) Act 2021",
+        "abbr": "Treasury Laws Amendment (2021 Measures No. 1) Act 2021"
+    },
+    {
+        "name": "Anti-Money Laundering Act of 2020",
+        "abbr": "Anti-Money Laundering Act of 2020"
+    },
+    {
+        "name": "Credit Bureau Act 2016",
+        "abbr": "Credit Bureau Act 2016"
+    },
+    {
+        "name": "Economic Crime (Transparency and Enforcement) Act 2022",
+        "abbr": "Economic Crime (Transparency and Enforcement) Act 2022"
+    },
+    {
+        "name": "Financial Services Reform Act 2001 (Australia)",
+        "abbr": "Financial Services Reform Act 2001"
+    },
+    {
+        "name": "Personal Data Protection Act (Taiwan)",
+        "abbr": "Personal Data Protection Act (Taiwan)"
+    },
+    {
+        "name": "Company Act (Taiwan)",
+        "abbr": "Company Act"
+    },
+    {
+        "name": "Financial Holding Company Act (Taiwan)",
+        "abbr": "Financial Holding Company Act"
+    },
+    {
+        "name": "Banking Act (Taiwan)",
+        "abbr": "Banking Act (Taiwan)"
+    },
+    {
+        "name": "Interest Rate Risk in the Banking Book (IRRBB)",
+        "abbr": "Interest Rate Risk in the Banking Book, IRRBB"
+    },
+    {
+        "name": "Payment Services Regulations 2019",
+        "abbr": "Payment Services Regulations 2019 (Singapore)"
+    },
+    {
+        "name": "Banking Act (Netherlands)",
+        "abbr": "Banking Act (Netherlands)"
+    },
+    {
+        "name": "Insurance Act (Taiwan)",
+        "abbr": "Insurance Act (Taiwan)"
+    },
+    {
+        "name": "Act Governing Electronic Payment Institutions (Taiwan)",
+        "abbr": "Act Governing Electronic Payment Institutions (Taiwan)"
+    },
+    {
+        "name": "Financial Holding Companies Act 2013 (Singapore)",
+        "abbr": "Financial Holding Companies Act 2013 (Singapore)"
+    },
+    {
+        "name": "Financial Services and Markets Act 2022 (Singapore)",
+        "abbr": "Financial Services and Markets Act 2022 (Singapore)"
+    },
+    {
+        "name": "Countering America’s Adversaries Through Sanctions Act (CAATSA)",
+        "abbr": "Countering America’s Adversaries Through Sanctions Act (CAATSA)"
+    },
+    {
+        "name": "Consumer Protection (Regulation of Retail Credit and Credit Servicing Firms) Act 2022 (Ireland)",
+        "abbr": "Consumer Protection (Regulation of Retail Credit and Credit Servicing Firms) Act 2022 (Ireland)"
+    },
+    {
+        "name": "Central Bank of the Republic of China (Taiwan) Act",
+        "abbr": "Central Bank of the Republic of China (Taiwan) Act"
+    },
+    {
+        "name": "Corporate Transparency Act (United States)",
+        "abbr": "Corporate Transparency Act (United States)"
+    },
+    {
+        "name": "EU Cybersecurity Act",
+        "abbr": "EU Cybersecurity Act"
+    },
+    {
+        "name": "The Money Laundering and Terrorist Financing (Amendment) (No. 2) Regulations 2022",
+        "abbr": "The Money Laundering and Terrorist Financing (Amendment) (No. 2) Regulations 2022"
+    },
+    {
+        "name": "EU Cyber Resilience Act",
+        "abbr": "Cyber Resilience Act"
+    },
+    {
+        "name": "EU Anti-Money Laundering Authority (AMLA) Regulation",
+        "abbr": "AMLA Regulation, AMLA"
+    },
+    {
+        "name": "Freedom of Information Act 1992 (Australia)",
+        "abbr": "Freedom of Information Act 1992"
+    },
+    {
+        "name": "Responsible Financial Innovation Act (RFIA) - [United States]",
+        "abbr": "Responsible Financial Innovation Act (RFIA) - [United States],Responsible Financial Innovation Act (RFIA),Responsible Financial Innovation Act,RFIA"
+    },
+    {
+        "name": "Legal Services Act 2007",
+        "abbr": "Legal services act"
+    },
+    {
+        "name": "Economic Crime and Corporate Transparency Bill",
+        "abbr": "Economic Crime and Corporate Transparency Bill"
+    },
+    {
+        "name": "EMIR Refit",
+        "abbr": "2019/834"
+    },
+    {
+        "name": "AI Liability Directive",
+        "abbr": "AI Liability Directive"
+    },
+    {
+        "name": "No CBDC Act",
+        "abbr": "No CBDC Act"
+    },
+    {
+        "name": "Climate-related Financial Disclosures (TCFD)",
+        "abbr": "TCFD,Climate-related Financial Disclosures "
+    },
+    {
+        "name": "Regulation II (Debit Card Interchange Fees and Routing)",
+        "abbr": "Regulation II"
+    },
+    {
+        "name": "Regulation HH (Financial Market Utilities)",
+        "abbr": "Regulation HH"
+    },
+    {
+        "name": "European Standardisation Regulation",
+        "abbr": "European Standardisation Regulation"
+    },
+    {
+        "name": "National Artificial Intelligence Initiative Act of 2020 – [United States]",
+        "abbr": "National AI Initiative Act, AI Act 2020"
+    },
+    {
+        "name": "The Financial Services (Miscellaneous Amendments) (EU Exit) Regulations 2022 – [United Kingdom]",
+        "abbr": "The Financial Services (Miscellaneous Amendments) (EU Exit) Regulations, The Financial Services (Miscellaneous Amendments) (EU Exit) Regulations 2022, S.I. 2019/632"
+    },
+    {
+        "name": "Secured Overnight Financing Rate (SOFR)",
+        "abbr": "SOFR"
+    },
+    {
+        "name": "Insurance Recovery and Resolution Directive (IRRD) – [European Union]",
+        "abbr": "IRRD, Insurance Recovery and Resolution Directive"
+    },
+    {
+        "name": "Transfer of Funds Regulation – [European Union]",
+        "abbr": "Transfer of Funds Regulation, Transfer of Funds"
+    },
+    {
+        "name": "IORP II - Institutions for Occupational Retirement Provision II Directive",
+        "abbr": "IORP II, IORP, 2016/2341/EU"
+    },
+    {
+        "name": "Federal Information Security Modernization Act of 2014 (FISMA) - [United States]",
+        "abbr": "Federal Information Security Modernization Act of 2014 (FISMA), FISMA, Federal Information Security Modernization Act"
+    },
+    {
+        "name": "The Money Laundering and Terrorist Financing (Amendment) (High-Risk Countries) Regulations 2022 – [United Kingdom]",
+        "abbr": "The Money Laundering and Terrorist Financing (Amendment) (High-Risk Countries) Regulations 2022"
+    },
+    {
+        "name": "Consumer Credit Directive",
+        "abbr": "2008/48/EU,CCD"
+    },
+    {
+        "name": "Cyber Incident Reporting for Critical Infrastructure Act of 2022 (CIRCIA) - [United States]",
+        "abbr": "Cyber Incident Reporting for Critical Infrastructure Act of 2022 (CIRCIA) - [United States], Cyber Incident Reporting for Critical Infrastructure Act of 2022 (CIRCIA), Cyber Incident Reporting for Critical Infrastructure Act of 2022, Cyber Incident Reporting for Critical Infrastructure Act, Cyber Incident Reporting for Critical Infrastructure, CIRCIA"
+    },
+    {
+        "name": "Digital Asset Anti-Money Laundering Act of 2022 - [United States]",
+        "abbr": "Digital Asset Anti-Money Laundering Act of 2022, Digital Asset Anti-Money Laundering Act"
+    },
+    {
+        "name": "Securities and Futures (Exemption for Cross-Border Arrangements) (Foreign Offices) Regulations 2021 (SF(ECBA)(FO)R) - [Singapore]",
+        "abbr": "Securities and Futures (Exemption for Cross-Border Arrangements) (Foreign Offices) Regulations 2021, Securities and Futures (Exemption for Cross-Border Arrangements) (Foreign Offices) Regulations, Securities and Futures (Exemption for Cross-Border Arrangements) (Foreign Offices), (SF(ECBA)(FO)R)"
+    },
+    {
+        "name": "Securities and Futures (Exemption for Cross-Border Arrangements) (Foreign Related Corporations) Regulations 2021 (SF(ECBA)(FRC)R) - [Singapore]",
+        "abbr": "Securities and Futures (Exemption for Cross-Border Arrangements) (Foreign Related Corporations) Regulations 2021, Securities and Futures (Exemption for Cross-Border Arrangements) (Foreign Related Corporations) Regulations, Securities and Futures (Exemption for Cross-Border Arrangements) (Foreign Related Corporations), (SF(ECBA)(FRC)R)"
+    },
+    {
+        "name": "Securities and Futures (Licensing and Conduct Of Business) Regulations (LCBR) - [Singapore]",
+        "abbr": "Securities and Futures (Licensing and Conduct Of Business) Regulations (LCBR), Securities and Futures (Licensing and Conduct Of Business) Regulations, LCBR"
+    },
+    {
+        "name": "Securities and Futures (Financial and Margin Requirements for Holders of Capital Markets Services Licences) Regulations (FMR) - [Singapore]",
+        "abbr": "Securities and Futures (Financial and Margin Requirements for Holders of Capital Markets Services Licences) Regulations, Securities and Futures (Financial and Margin Requirements for Holders of Capital Markets Services Licences), FMR"
+    },
+    {
+        "name": "Credit Rating Services Act, 2012 - [South Africa]",
+        "abbr": "Credit Rating Services Act, 2012, Credit Rating Services Act"
+    },
+    {
+        "name": "Companies Act 71 of 2008 - [South Africa]",
+        "abbr": "Companies Act 71 of 2008, Companies Act 2008, Act 71"
+    },
+    {
+        "name": "Close Corporations Act 69 of 1984 - [South Africa]",
+        "abbr": "Close Corporations Act 69 of 1984, Close Corporations Act, Act 69"
+    },
+    {
+        "name": "Illicit Finance Improvements Act - [United States]",
+        "abbr": "Illicit Finance Improvements Act"
+    },
+    {
+        "name": "Adjustable Interest Rate (LIBOR) Act - [United States]",
+        "abbr": "Adjustable Interest Rate, LIBOR Act, Adjustable Interest Rate (LIBOR) Act"
+    },
+    {
+        "name": "Banking (Corporate Governance) Regulations 2005 - [Singapore]",
+        "abbr": "Banking (Corporate Governance) Regulations 2005, Banking (Corporate Governance) Regulations"
+    },
+    {
+        "name": "Banking (Credit Card and Charge Card) Regulations 2013 - [Singapore]",
+        "abbr": "Banking (Credit Card and Charge Card) Regulations 2013, Banking (Credit Card and Charge Card) Regulations"
+    },
+    {
+        "name": "Financial Sector Reform Act 2022 - [Australia]",
+        "abbr": "Financial Sector Reform Act 2022, Financial Sector Reform Act"
+    },
+    {
+        "name": "Supply Chain Act (Lieferkettengesetz) - [Germany]",
+        "abbr": "Supply Chain Act, Lieferkettengesetz, German Supply Chain Act, Lieferkettensorgfaltspflichtengesetz"
+    },
+    {
+        "name": "Gramm-Leach-Bliley Act (GLBA) - [United States]",
+        "abbr": "Financial Services Modernization Act of 1999, Financial Services Modernization Act, Gramm-Leach-Bliley Act, GLBA"
+    },
+    {
+        "name": "Financial Data Transparency Act of 2022 - [United States]",
+        "abbr": "Financial Data Transparency Act of 2022, Financial Data Transparency Act, FDTA"
+    }
+]
