@@ -11,8 +11,7 @@ $messages = [];
 
 
 
-//$pearls = getAllKeywords();
-$pearls = [];
+$pearls = getAllKeywords();
 
 if (!empty($pearls)) {
     http_response_code(200);
