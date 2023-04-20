@@ -143,7 +143,7 @@ function getUrlText($url) {
 
     $parser = new Parser();
 
-    if (str_contains($url, ".pdf")) {
+    if (stristr($url, ".pdf")) {
         try {
             $text = $parser->parseContent($html)->getText();
         } catch (\Exception $e) {
