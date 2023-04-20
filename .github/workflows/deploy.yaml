@@ -20,4 +20,4 @@ jobs:
          local_source_dir: "./"
          dist_target_dir: "./htdocs"
          delete: "false"
-         exclude: "'^config.php' '^README.md' '^composer.lock' '^composer.json'"        
+         exclude: "'^.git/' '^config.php' '^README.md' '^composer.lock' '^composer.json'"        
