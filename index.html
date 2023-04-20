@@ -32,7 +32,8 @@
 
 <body class="bg-gray-50">
 
-    <nav class="px-2 sm:px-4 py-2 fixed w-full  top-0 left-0 backdrop-blur-3xl shadow-sm bg-gradient-to-r from-rose-50 to-white" >
+    <nav
+        class="px-2 sm:px-4 py-2 fixed w-full  top-0 left-0 backdrop-blur-3xl shadow-sm bg-gradient-to-r from-rose-50 to-white">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
             <div class="flex items-center space-x-2">
                 <div class="h-8 w-8 bg-orange-200 rounded-full">
@@ -62,7 +63,8 @@
             <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
                 <ul class="flex flex-col p-2 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-semibold ">
                     <li>
-                        <a href="/projects" class="block py-2 pl-3 pr-4  md:p-0 text-orange-700 md:hover:text-purple-700">Projects</a>
+                        <a href="/projects"
+                            class="block py-2 pl-3 pr-4  md:p-0 text-orange-700 md:hover:text-purple-700">Projects</a>
                     </li>
                     <li>
                         <a href="#"
@@ -84,9 +86,10 @@
                 <header class="mb-4 border-b border-orange-200 dark:border-orange-700">
                     <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="myTab"
                         data-tabs-toggle="#myTabContent" role="tablist">
-                        <li class="mr-2" role="presentation"> <button class="inline-block p-4 border-b-2 rounded-t-lg text-purple-900"
-                                id="document-tab" data-tabs-target="#document" type="button" role="tab"
-                                aria-controls="document" aria-selected="false">Document</button> </li>
+                        <li class="mr-2" role="presentation"> <button
+                                class="inline-block p-4 border-b-2 rounded-t-lg text-purple-900" id="document-tab"
+                                data-tabs-target="#document" type="button" role="tab" aria-controls="document"
+                                aria-selected="false">Document</button> </li>
                         <li class="mr-2" role="presentation"> <button
                                 class="text-purple-900 inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-orange-600 hover:border-purple-300 dark:hover:text-gray-300"
                                 id="text-tab" data-tabs-target="#text" type="button" role="tab" aria-controls="text"
@@ -113,11 +116,13 @@
                             <!-- LI's -->
                             <div style="display:none;" id="lis-found" class="bg-gray-50 rounded-lg p-2">
                                 <p id="flis" class="text-sm"></p>
-                            </div> <!-- FORM --> <input
+                            </div>
+                            <!-- FORM -->
+                            <input
                                 class="mr-2 block w-3/4 text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400"
                                 id="file_input" type='file' name="files"
-                                accept=".xlsx,.xls,.doc, .docx,.ppt, .pptx,.txt,.pdf" /> <button name="submitpdf"
-                                type="submit" id="submitpdf"
+                                accept=".xlsx,.xls,.doc, .docx,.ppt, .pptx,.txt,.pdf" />
+                            <button name="submitpdf" type="submit" id="submitpdf"
                                 class="focus:outline-none text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Parse</button>
                         </form>
                         <center> <img style="display:none;" id="loader" src="static/imgs/loader.gif" alt="" width="150"
