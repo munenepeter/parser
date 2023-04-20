@@ -152,6 +152,8 @@ urlForm.addEventListener("submit", (e) => {
 });
 
 
+
+
 //get pearls
 
 const pearls_tab_btn = document.querySelector("#pearls-tab");
@@ -160,30 +162,38 @@ pearls_tab_btn.addEventListener("click", (e) => {
   document.getElementById("pearls_body").style.display = "none";
   document.getElementById("loader-pearls").style.display = "block";
 
-
-  const formData = new FormData(urlForm);
   const url = "/src/pearls.php";
   axios
-    .post(url, formData)
+    .get(url)
     .then((res) => {
-      console.log(res);
+   //   console.log(res);
       document.getElementById("pearls_body").style.display = "block";
       document.getElementById("loader-pearls").style.display = "none";
 
-      document.getElementById('pearls-content').innerHTML = res.data.pearls; 
+      document.getElementById('pearl-notifs').innerHTML = "Viewing pearls, click <b>edit</b> to delete or add";
 
-     
+      document.getElementById('pearls-content').innerHTML = res.data.pearls;
+
     })
     .catch((err) => {
-      console.log(err);
+     // console.log(err);
       document.getElementById("pearls_body").style.display = "block";
       document.getElementById("loader-pearls").style.display = "none";
       document.getElementById("btns").style.display = "none";
 
       document.getElementById('pearl-content').classList.add("border", "border-red-600", "text-rose-500", "font-semibold");
-      document.getElementById('pearls-content').innerHTML = err.response.data.message; 
+      document.getElementById('pearls-content').innerHTML = err.response.data.message;
     });
 });
-//btn_id = pearls-tab
+//edit pearls
 
-//place to hold them = pearls-content
+const edit_pearls_btn = document.querySelector("#edit-pearls");
+edit_pearls_btn.addEventListener("click", (e) => {
+  e.preventDefault();
+  document.getElementById('save-pearls').classList.remove("hidden");
+  document.getElementById('pearl-content').classList.add("border", "border-green-600", "text-green-900", );
+  document.getElementById('pearl-notifs').innerHTML = "Editing the pearls, click <b>save</b> when done";
+
+  //convert the div to content editable
+
+});
