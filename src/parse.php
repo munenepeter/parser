@@ -46,7 +46,7 @@ $lis_found = get_lis_in_text($keywords_found);
 //search for LIS
 if (!empty($keywords_found)) {
     $messages['keywords_found'] =  implode(", ", $keywords_found);
-    $messages['lis_found'] =  empty($lis_found) ? "Seems that there are no LIs in the file" : implode(", ", $lis_found);
+    $messages['lis_found'] =  empty($lis_found) ? "Seems like there are no LIs in the file" : implode(", ", $lis_found);
 } else {
     $messages['lis_found'] = "No LI's Found!";
 }
