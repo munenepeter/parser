@@ -40,10 +40,13 @@ if (!empty($text)) {
     return;
 }
 
+$keywords_found = get_keywords_in_text($text);
+$lis_found = get_lis_in_text($keywords_found);
+
 //search for LIS
-if (!empty(get_keywords_in_text($text))) {
-    $messages['keywords_found'] =  implode(", ", get_keywords_in_text($text));
-    $messages['lis_found'] =  implode(", ", get_lis_in_text(get_keywords_in_text($text)));
+if (!empty($keywords_found)) {
+    $messages['keywords_found'] =  implode(", ", $keywords_found);
+    $messages['lis_found'] =  empty($lis_found) ? "Seems that there are not LIs in the file" : implode(", ", $lis_found);
 } else {
     $messages['lis_found'] = "No LI's Found!";
 }
