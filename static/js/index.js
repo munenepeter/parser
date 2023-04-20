@@ -41,9 +41,11 @@ form.addEventListener("submit", (e) => {
 
       document.getElementById('content').innerHTML = res.data.text;
       document.getElementById('flis').innerHTML = res.data.lis_found;
+      document.getElementById('keywords_plate').innerHTML = res.data.keywords_found;
 
       document.getElementById("clear").style.display = "block";
       document.getElementById("lis-found").style.display = "block";
+      document.getElementById("extra").style.display = "block";
     })
     .catch((err) => {
       console.log(err);
