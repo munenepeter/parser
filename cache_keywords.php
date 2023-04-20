@@ -34,6 +34,5 @@ $allpearls = array_map(function ($pearl) {
 
 file_put_contents("lis.txt", json_encode(array_unique($allpearls)));
 
-print_r(array_unique($allpearls));
 
 
