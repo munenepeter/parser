@@ -19,11 +19,11 @@ function logger(String $message) {
 
 function getAllLis() {
     //from cached file
-    return json_decode(file_get_contents(__DIR__ . "/../static/lis-names.json"), true);
+    return json_decode(@file_get_contents(__DIR__ . "/../static/lis-names.json"), true);
 }
 function getAllKeywords() {
     //from cached file
-    return json_decode(file_get_contents(__DIR__ . "/../static/keywords.txt"), true);
+    return json_decode(@file_get_contents(__DIR__ . "/../static/keywords.txt"), true);
 }
 
 
@@ -114,7 +114,7 @@ function readUploadedFile($file) {
     }
     //plain text
     if (mime_content_type($file) === 'text/plain') {
-        $text = file_get_contents($file);
+        $text = @file_get_contents($file);
     }
 
     return $text;
@@ -139,7 +139,7 @@ function getUrlText($url) {
             ]
         ]
     );
-    $html = file_get_contents($url, false, $context);
+    $html = @file_get_contents($url, false, $context);
 
     $parser = new Parser();
 
