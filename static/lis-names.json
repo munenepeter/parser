@@ -377,7 +377,7 @@
     },
     {
         "name": "Prospectus Regulation (PR)",
-        "abbr": "PR, Prospectus Regulation, 2017/1129, 2017/1129/EU"
+        "abbr": "Prospectus Regulation, 2017/1129, 2017/1129/EU"
     },
     {
         "name": "Prospectus Directive (PD)",
@@ -653,7 +653,7 @@
     },
     {
         "name": "Interbank Offered Rate Transition",
-        "abbr": "IBOR Transition, Transition from IBOR, Transition from LIBOR"
+        "abbr": "IBOR Transition, Transition from IBOR, Transition from LIBOR, LIBOR"
     },
     {
         "name": "Interest Rate Risk  in the Banking Book (IRRBB)",
@@ -741,7 +741,7 @@
     },
     {
         "name": "UN Sustainable Development Goals (SDGs)",
-        "abbr": "UN Sustainable Development Goals (SDGs)"
+        "abbr": "UN Sustainable Development Goals (SDGs), Sustainable Development Goals, SDGs"
     },
     {
         "name": "United Nations Sanctions",

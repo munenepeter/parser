@@ -2,14 +2,11 @@
 
 //testing using the pearls
 
-$pearls = <<<PEARLS
-
-
-PEARLS;
+$pearls = file_get_contents("static/pearls.txt");
 
 function getAllLis() {
     //from db
-    $databaseLis = json_decode(file_get_contents("https://munenepeter.github.io/my-file-tracker/data/datas.json"));
+    $databaseLis = json_decode(file_get_contents("static/lis-names.json"));
 
     $allLis = [];
 
@@ -35,7 +32,7 @@ $allpearls = array_map(function ($pearl) {
 
 
 
-file_put_contents("static/lis.txt", json_encode(array_unique($allpearls)));
+file_put_contents("lis.txt", json_encode(array_unique($allpearls)));
 
 print_r(array_unique($allpearls));
 

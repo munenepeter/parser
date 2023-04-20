@@ -101,7 +101,9 @@ textForm.addEventListener("submit", (e) => {
 
       document.getElementById('text-content').innerHTML = res.data.text;
       document.getElementById('flis-txt').innerHTML = res.data.lis_found;
+      document.getElementById('keywords_plate_txt').innerHTML = res.data.keywords_found;
 
+      document.getElementById("extra_txt").style.display = "block";
       document.getElementById("clear").style.display = "block";
       document.getElementById("lis-found-txt").style.display = "block";
     })
