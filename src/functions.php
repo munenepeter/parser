@@ -69,24 +69,6 @@ function get_lis_in_text($keywords_found_in_text) {
 }
 
 
-// function getLisInText($text) {
-//     $foundWords = [];
-
-//     $chunkSize = 240;
-//     $searchWordChunks = array_chunk(getAllLis(), $chunkSize);
-
-//     // Search for each group of words separately
-//     foreach ($searchWordChunks as $chunk) {
-//         $escapedSearchWords = array_map(function ($word) {
-//             return preg_quote($word, '/');
-//         }, $chunk);
-//         $pattern = '/\b(' . implode('|', $escapedSearchWords) . ')\b/i';
-//         preg_match_all($pattern, $text, $matches);
-//         //remove duplicate & empty elements
-//         $foundWords = array_filter(array_unique(array_merge($foundWords, $matches[0])));
-//     }
-//     return $foundWords;
-// }
 
 
 //parse PDF files
