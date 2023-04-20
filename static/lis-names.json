@@ -248,8 +248,8 @@
         "abbr": "648/2012, EMIR, European Market Infrastructure Regulation, Regulation (EU) No 648/2012"
     },
     {
-        "name": "European Securities and Markets Authority Regulation (ESMA Regulation)",
-        "abbr": "1095/2010, ESMA, ESMA Regulation, European Securities and Markets Authority Regulation, Regulation (EU) No 1095/2010"
+        "name": "ESMA Regulation",
+        "abbr": "1095/2010, 1095/2010/EU, ESMA Regulation, European Securities and Markets Authority Regulation, Regulation (EU) No 1095/2010"
     },
     {
         "name": "European Social Entrepreneurship Fund (EuSEF)",
@@ -257,7 +257,7 @@
     },
     {
         "name": "European Systemic Risk Board Regulation (ESRBR)",
-        "abbr": "ESRB, ESRB Regulation, ESRBR, European Systemic Risk Board Regulation, Regulation (EU) No 1092/2010, Regulation (EU) No 1092/2010 of the European Parliament and of the Council of 24 November 2010 on European Union macro-prudential oversight of the financial system and establishing a European Systemic Risk Board"
+        "abbr": "ESRB Regulation, ESRBR, European Systemic Risk Board Regulation, Regulation (EU) No 1092/2010, Regulation (EU) No 1092/2010 of the European Parliament and of the Council of 24 November 2010 on European Union macro-prudential oversight of the financial system and establishing a European Systemic Risk Board"
     },
     {
         "name": "European Union Agency for Network and Information Security (ENISA)",
@@ -321,7 +321,7 @@
     },
     {
         "name": "Markets in Financial Instruments Regulation (MIFIR)",
-        "abbr": "600/2014,MIFIR,Markets in Financial Instruments Regulation "
+        "abbr": "600/2014, MIFIR, Markets in Financial Instruments Regulation, MiFiR"
     },
     {
         "name": "Money Laundering Directive 2005",
@@ -333,7 +333,7 @@
     },
     {
         "name": "Mortgage Credit Directive (MCD)",
-        "abbr": "Directive 2014/17/EU, MCD, Mortgage Credit Directive"
+        "abbr": "Directive 2014/17/EU, MCD, Mortgage Credit Directive, 2014/17/EU"
     },
     {
         "name": "Network and Information Security Directive (NISD)",
@@ -497,11 +497,11 @@
     },
     {
         "name": "Treaty on European Union (TEU)",
-        "abbr": "TEU"
+        "abbr": "TEU, Treaty on European Union"
     },
     {
         "name": "Treaty on the Functioning of the European Union (TFEU)",
-        "abbr": "TFEU, Treaty of Rome"
+        "abbr": "TFEU, Treaty of Rome, Treaty on the Functioning of the European Union"
     },
     {
         "name": "Undertakings for Collective Investment in Transferable Securities (UCITS)",
@@ -1093,7 +1093,7 @@
     },
     {
         "name": "The Electronic Money, Payment Services and Payment Systems (Amendment and Transitional Provisions) (EU Exit) Regulations 2018",
-        "abbr": "Electronic Money, Payment Services and Payment Systems Regulation"
+        "abbr": "Electronic Money Payment Services and Payment Systems Regulation, Payment Services and Payment Systems Regulation"
     },
     {
         "name": "The Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017",
@@ -1473,7 +1473,7 @@
     },
     {
         "name": "EMIR Refit",
-        "abbr": "2019/834"
+        "abbr": "2019/834, REFIT, EMIR Refit"
     },
     {
         "name": "AI Liability Directive",
