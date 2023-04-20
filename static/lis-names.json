@@ -1,7 +1,7 @@
 [
     {
         "name": "Anti-Money Laundering and Counter-Terrorism Financing Act 2006",
-        "abbr": "AML/CFT Act"
+        "abbr": "AML/CFT Act, Anti-Money Laundering and Counter-Terrorism Financing Act 2006, Anti-Money Laundering and Counter-Terrorism Financing Act"
     },
     {
         "name": "ASIC Derivative Transaction Rules (Reporting) 2013",
@@ -24,8 +24,8 @@
         "abbr": "NCCP Act, National Credit Act, No. 134 2009"
     },
     {
-        "name": "Privacy Act 1998",
-        "abbr": "Privacy Act 1998"
+        "name": "Privacy Act 1988 (Australia)",
+        "abbr": "Privacy Act 1998, Privacy Act 1988"
     },
     {
         "name": "Reserve Bank Act of 1959",
@@ -1005,11 +1005,11 @@
     },
     {
         "name": "Money Laundering and Terrorist Financing (Amendment) Regulations 2019",
-        "abbr": "Money Laundering and Terrorist Financing Regulation"
+        "abbr": "Money Laundering and Terrorist Financing Regulation, Money Laundering and Terrorist Financing Regulation 2019"
     },
     {
         "name": "Money Laundering Regulation 2007",
-        "abbr": "Money Laundering Regulation"
+        "abbr": "Money Laundering Regulation 2007"
     },
     {
         "name": "Network and Information Systems Regulations 2018",
@@ -1025,11 +1025,11 @@
     },
     {
         "name": "Policing and Crime Act 2017",
-        "abbr": "Policing and Crime Act"
+        "abbr": "Policing and Crime Act, Policing and Crime Act 2017"
     },
     {
         "name": "Proceeds of Crime Act 2002 (POCA)",
-        "abbr": "POCA, Proceeds of Crime Act"
+        "abbr": "POCA, Proceeds of Crime Act, Proceeds of Crime Act 2002, POCA 2002"
     },
     {
         "name": "Prudential Regulation Authority Rulebook",
@@ -1057,11 +1057,11 @@
     },
     {
         "name": "Securitisation (Amendment) (EU Exit) Regulations 2019",
-        "abbr": "Securitisation Regulation"
+        "abbr": "Securitisation Regulation, Securitisation (Amendment) (EU Exit) Regulations 2019"
     },
     {
         "name": "Senior Managers and Certification Regime",
-        "abbr": "SM&CR, SMCR"
+        "abbr": "SM&CR, SMCR, Senior Managers and Certification Regime"
     },
     {
         "name": "Serious Crime Act 2015",
@@ -1602,5 +1602,25 @@
     {
         "name": "Financial Data Transparency Act of 2022 - [United States]",
         "abbr": "Financial Data Transparency Act of 2022, Financial Data Transparency Act, FDTA"
+    },
+    {
+        "name": "Financial Transaction Reports Act 1988 (FTR Act)",
+        "abbr": "Financial Transaction Reports Act 1988 (FTR Act), FTR Act, Financial Transaction Reports Act"
+    },
+    {
+        "name": "Freedom of Information Act 1982 (Australia)",
+        "abbr": "Freedom of Information Act 1982"
+    },
+    {
+        "name": "Central Bank Act 1942",
+        "abbr": "Central Bank Act 1942"
+    },
+    {
+        "name": "Senior Executive Accountability Regime (SEAR)",
+        "abbr": "Senior Executive Accountability Regime (SEAR), Senior Executive Accountability Regime, SEAR"
+    },
+    {
+        "name": "Central Bank (Individual Accountability Framework) Act 2022",
+        "abbr": "Central Bank (Individual Accountability Framework) Act, Central Bank (Individual Accountability Framework) Act 2023"
     }
 ]

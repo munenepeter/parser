@@ -35,7 +35,7 @@ form.addEventListener("submit", (e) => {
       document.getElementById("file_input").style.display = "none";
 
       document.getElementById("doc-label").innerText = "The following have been found to be possible LI's within the file";
-      document.getElementById("doc-label-guide").innerText = "Confirm and copy them to your clipboard*";
+      document.getElementById("doc-label-guide").innerText = "Please confirm them before using*";
 
       document.getElementById("doc-content").style.display = "block";
 
@@ -95,7 +95,7 @@ textForm.addEventListener("submit", (e) => {
       document.getElementById("submittext").style.display = "none";
 
       document.getElementById("text-label").innerText = "The following have been found to be possible LI's within the file";
-      document.getElementById("text-label-guide").innerText = "Confirm and copy them to your clipboard";
+      document.getElementById("text-label-guide").innerText = "Please confirm them before using";
 
       document.getElementById("txt-content").style.display = "block";
 
@@ -135,7 +135,7 @@ urlForm.addEventListener("submit", (e) => {
       document.getElementById("submiturl").style.display = "none";
 
       document.getElementById("url-label").innerText = "The following have been found to be possible LI's within the file";
-      document.getElementById("url-label-guide").innerText = "Confirm and copy them to your clipboard";
+      document.getElementById("url-label-guide").innerText = "Please confirm them before using";
 
       document.getElementById("url-content").style.display = "block";
 

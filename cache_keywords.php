@@ -32,7 +32,7 @@ $allpearls = array_map(function ($pearl) {
 
 
 
-file_put_contents("lis.txt", json_encode(array_unique($allpearls)));
+file_put_contents("static/keywords.txt", json_encode(array_unique($allpearls)));
 
 
 
