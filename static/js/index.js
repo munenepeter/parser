@@ -150,3 +150,34 @@ urlForm.addEventListener("submit", (e) => {
     });
 
 });
+
+
+//get pearls
+
+const pearls_tab_btn = document.querySelector("#pearls-tab");
+pearls_tab_btn.addEventListener("click", (e) => {
+  e.preventDefault();
+  document.getElementById("pearls_body").style.display = "none";
+  document.getElementById("loader-pearls").style.display = "block";
+
+
+  const formData = new FormData(urlForm);
+  const url = "/src/pearls.php";
+  axios
+    .post(url, formData)
+    .then((res) => {
+      console.log(res);
+      document.getElementById("pearls_body").style.display = "block";
+      document.getElementById("loader-pearls").style.display = "none";
+
+      document.getElementById('pearls-content').innerHTML = res.data.text; 
+
+     
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+});
+//btn_id = pearls-tab
+
+//place to hold them = pearls-content
