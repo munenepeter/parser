@@ -170,12 +170,18 @@ pearls_tab_btn.addEventListener("click", (e) => {
       document.getElementById("pearls_body").style.display = "block";
       document.getElementById("loader-pearls").style.display = "none";
 
-      document.getElementById('pearls-content').innerHTML = res.data.text; 
+      document.getElementById('pearls-content').innerHTML = res.data.pearls; 
 
      
     })
     .catch((err) => {
       console.log(err);
+      document.getElementById("pearls_body").style.display = "block";
+      document.getElementById("loader-pearls").style.display = "none";
+      document.getElementById("btns").style.display = "none";
+
+      document.getElementById('pearl-content').classList.add("border", "border-red-600", "text-rose-500", "font-semibold");
+      document.getElementById('pearls-content').innerHTML = err.response.data.message; 
     });
 });
 //btn_id = pearls-tab
