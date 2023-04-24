@@ -1618,5 +1618,9 @@
     {
         "name": "Companies Act (Singapore)",
         "abbr": "Companies Act 1967"
+    },
+     {
+        "name": "Personal Data (Privacy) Ordinance (PDPO)",
+        "abbr": "Personal Data (Privacy) Ordinance (PDPO), PDPO, Personal Data (Privacy) Ordinance"
     }
 ]
