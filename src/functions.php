@@ -6,16 +6,19 @@ use LukeMadhanga\DocumentParser;
 include '../vendor/autoload.php';
 
 //custom logger
-function logger(String $message) {
+function logger(string $message): void {
+    $logFile =  __DIR__ . "/../static/logs.log";
+
+    if (!file_exists($logFile)) {
+        touch($logFile);
+        chmod($logFile, 0644);
+    }
 
     $log = date("D, d M Y H:i:s") . ' - ' . $_SERVER['SERVER_NAME'] . ' - ' . $_SERVER['REMOTE_ADDR'] . ' - ' . "$message" . PHP_EOL;
 
-    $logFile =  __DIR__ . "/../static/logs.log";
-
-    $file = fopen($logFile, 'a+');
-    fwrite($file, $log);
-    fclose($file);
+    file_put_contents($logFile, $log, FILE_APPEND);
 }
+
 
 function getAllLis() {
     //from cached file
