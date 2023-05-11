@@ -12,7 +12,9 @@ include 'functions.php';
 $messages = [];
 
 // Handle File upload
+
 if (!empty($_FILES) && empty($_POST['text'])) {
+    logger(json_encode($_FILES));
     try {
         // read the uploaded file
         $text = readUploadedFile($_FILES['files']['tmp_name']);
