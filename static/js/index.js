@@ -89,7 +89,7 @@ textForm.addEventListener("submit", (e) => {
   axios
     .post(url, formData)
     .then((res) => {
-     // console.log(res);
+      console.log(res);
       document.getElementById("loader").style.display = "none";
       document.getElementById("doc-txt-textarea").style.display = "none";
       document.getElementById("submittext").style.display = "none";
@@ -129,7 +129,7 @@ urlForm.addEventListener("submit", (e) => {
   axios
     .post(url, formData)
     .then((res) => {
-    //  console.log(res);
+     // console.log(res);
       document.getElementById("loader-url").style.display = "none";
       document.getElementById("url-input").style.display = "none";
       document.getElementById("submiturl").style.display = "none";
@@ -166,7 +166,7 @@ pearls_tab_btn.addEventListener("click", (e) => {
   axios
     .get(url)
     .then((res) => {
-    console.log(res);
+   // console.log(res);
       document.getElementById("pearls_body").style.display = "block";
       document.getElementById("loader-pearls").style.display = "none";
 
@@ -176,7 +176,7 @@ pearls_tab_btn.addEventListener("click", (e) => {
 
     })
     .catch((err) => {
-     console.log(err);
+     //console.log(err);
       document.getElementById("pearls_body").style.display = "block";
       document.getElementById("loader-pearls").style.display = "none";
       document.getElementById("btns").style.display = "none";

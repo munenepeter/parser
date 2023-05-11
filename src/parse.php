@@ -47,6 +47,8 @@ if (empty($text)) {
     return;
 }
 
+$messages['text'] =  $text;
+
 // get the keywords and LISs in the text
 $keywords_found = get_keywords_in_text($text);
 $lis_found = get_lis_in_text($keywords_found);
