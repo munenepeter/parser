@@ -6,24 +6,27 @@ use LukeMadhanga\DocumentParser;
 include '../vendor/autoload.php';
 
 //custom logger
-function logger(String $message) {
+function logger(string $message): void {
+    $logFile =  __DIR__ . "/../static/logs.log";
+
+    if (!file_exists($logFile)) {
+        touch($logFile);
+        chmod($logFile, 0644);
+    }
 
     $log = date("D, d M Y H:i:s") . ' - ' . $_SERVER['SERVER_NAME'] . ' - ' . $_SERVER['REMOTE_ADDR'] . ' - ' . "$message" . PHP_EOL;
 
-    $logFile =  __DIR__ . "/../static/logs.log";
-
-    $file = fopen($logFile, 'a+');
-    fwrite($file, $log);
-    fclose($file);
+    file_put_contents($logFile, $log, FILE_APPEND);
 }
+
 
 function getAllLis() {
     //from cached file
-    return json_decode(file_get_contents(__DIR__ . "/../static/lis-names.json"), true);
+    return json_decode(@file_get_contents(__DIR__ . "/../static/lis-names.json"), true);
 }
 function getAllKeywords() {
     //from cached file
-    return json_decode(file_get_contents(__DIR__ . "/../static/keywords.txt"), true);
+    return json_decode(@file_get_contents(__DIR__ . "/../static/keywords.txt"), true);
 }
 
 
@@ -69,24 +72,6 @@ function get_lis_in_text($keywords_found_in_text) {
 }
 
 
-// function getLisInText($text) {
-//     $foundWords = [];
-
-//     $chunkSize = 240;
-//     $searchWordChunks = array_chunk(getAllLis(), $chunkSize);
-
-//     // Search for each group of words separately
-//     foreach ($searchWordChunks as $chunk) {
-//         $escapedSearchWords = array_map(function ($word) {
-//             return preg_quote($word, '/');
-//         }, $chunk);
-//         $pattern = '/\b(' . implode('|', $escapedSearchWords) . ')\b/i';
-//         preg_match_all($pattern, $text, $matches);
-//         //remove duplicate & empty elements
-//         $foundWords = array_filter(array_unique(array_merge($foundWords, $matches[0])));
-//     }
-//     return $foundWords;
-// }
 
 
 //parse PDF files
@@ -132,7 +117,7 @@ function readUploadedFile($file) {
     }
     //plain text
     if (mime_content_type($file) === 'text/plain') {
-        $text = file_get_contents($file);
+        $text = @file_get_contents($file);
     }
 
     return $text;
@@ -157,11 +142,11 @@ function getUrlText($url) {
             ]
         ]
     );
-    $html = file_get_contents($url, false, $context);
+    $html = @file_get_contents($url, false, $context);
 
     $parser = new Parser();
 
-    if (str_contains($url, ".pdf")) {
+    if (stristr($url, ".pdf")) {
         try {
             $text = $parser->parseContent($html)->getText();
         } catch (\Exception $e) {
