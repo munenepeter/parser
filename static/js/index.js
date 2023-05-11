@@ -166,7 +166,7 @@ pearls_tab_btn.addEventListener("click", (e) => {
   axios
     .get(url)
     .then((res) => {
-   //   console.log(res);
+    console.log(res);
       document.getElementById("pearls_body").style.display = "block";
       document.getElementById("loader-pearls").style.display = "none";
 
@@ -176,7 +176,7 @@ pearls_tab_btn.addEventListener("click", (e) => {
 
     })
     .catch((err) => {
-     // console.log(err);
+     console.log(err);
       document.getElementById("pearls_body").style.display = "block";
       document.getElementById("loader-pearls").style.display = "none";
       document.getElementById("btns").style.display = "none";

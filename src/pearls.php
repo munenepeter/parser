@@ -10,7 +10,7 @@ $pearls = getAllKeywords();
 
 if (!empty($pearls)) {
     http_response_code(200);
-    echo json_encode(['pearls' => $pearls], JSON_UNESCAPED_UNICODE);
+    echo json_encode(['pearls' => implode(", ",$pearls)], JSON_UNESCAPED_UNICODE);
 } else {
     http_response_code(500);
     echo json_encode(['message' => "Something is off and can't access the pearls!"]);
