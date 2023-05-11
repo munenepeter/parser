@@ -1,4 +1,4 @@
 /.vscode/
 /static/logs.log
 /vendor/ 
-
+test*

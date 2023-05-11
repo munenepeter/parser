@@ -4,7 +4,7 @@ include_once 'SimpleXLSX.php';
 echo '<pre>';
 
 // open
-$filename = 'test.xlsx';
+$filename = 'test2.xlsx';
 
 $xlsx = Test\SimpleXLSX::parseFile( $filename, $debug = false );
 
