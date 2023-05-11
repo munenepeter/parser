@@ -58,6 +58,7 @@ if (!empty($keywords_found)) {
     $messages['keywords_found'] =  implode(", ", $keywords_found);
     $messages['lis_found'] =  empty($lis_found) ? "Seems like there are no LIs in the file" : implode(", ", $lis_found);
 } else {
+    $messages['keywords_found'] =  "No keywords found";
     $messages['lis_found'] = "No LI's Found!";
 }
 

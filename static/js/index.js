@@ -89,7 +89,7 @@ textForm.addEventListener("submit", (e) => {
   axios
     .post(url, formData)
     .then((res) => {
-      console.log(res);
+      //console.log(res);
       document.getElementById("loader").style.display = "none";
       document.getElementById("doc-txt-textarea").style.display = "none";
       document.getElementById("submittext").style.display = "none";
