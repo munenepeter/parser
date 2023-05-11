@@ -159,3 +159,25 @@ function getUrlText($url) {
     }
     return $text;
 }
+
+function getRandColor() {
+    $rgbColor = [];
+    foreach (['r', 'g', 'b'] as $color) {
+        //Generate a random number between 0 and 255.
+        $rgbColor[$color] = mt_rand(0, 255);
+    }
+    $colorCode = implode(",", $rgbColor);
+    return "rgb($colorCode)";
+}
+
+
+function getPearlsWithColors(): string {
+    $keywords = getAllKeywords();
+    $all_pearls_with_colors = [];
+
+    foreach ($keywords as $keyword) {
+        $all_pearls_with_colors[] = '<span style="background-color:' . getRandColor() . '">' . $keyword . '</span>';
+    }
+
+    return implode(' ', $all_pearls_with_colors);
+}
