@@ -105,15 +105,20 @@ function getExcelText($file) {
 
     try {
         $xlsx = Test\SimpleXLSX::parseFile($file, $debug = false);
-        return $xlsx->toHTMLEx();
+
+        $text = '';
+        for ($i = 0; $i < count($xlsx->sheetNames()); $i++) {
+            $text .=  $xlsx->sheetName($i) . '<br>' . wp_strip_all_tags($xlsx->toHTML($i));
+        }
+        return $text;
     } catch (\Exception $e) {
         throw new \Exception($e->getMessage());
         logger('ERROR: An exception was called ' . $e->getMessage());
         return;
     }
 
-   
-   // throw new \Exception("Excel format is yet to be supported! E214");
+
+    // throw new \Exception("Excel format is yet to be supported! E214");
 }
 function readUploadedFile($file) {
     //pdf
