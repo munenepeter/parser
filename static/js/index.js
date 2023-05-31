@@ -89,7 +89,7 @@ textForm.addEventListener("submit", (e) => {
   axios
     .post(url, formData)
     .then((res) => {
-      console.log(res);
+      //console.log(res);
       document.getElementById("loader").style.display = "none";
       document.getElementById("doc-txt-textarea").style.display = "none";
       document.getElementById("submittext").style.display = "none";
@@ -104,7 +104,7 @@ textForm.addEventListener("submit", (e) => {
       document.getElementById('keywords_plate_txt').innerHTML = res.data.keywords_found;
 
       document.getElementById("extra_txt").style.display = "block";
-      document.getElementById("clear").style.display = "block";
+      document.getElementById("clear_txt").style.display = "block";
       document.getElementById("lis-found-txt").style.display = "block";
     })
     .catch((err) => {
@@ -112,7 +112,28 @@ textForm.addEventListener("submit", (e) => {
     });
 
 });
+/**
+ * 
+ * Clear Button for txt
+ */
+const clearBtnTxt = document.getElementById('clear_txt');
+clearBtnTxt.addEventListener('click', () => {
+  document.getElementById("lis-found-txt").style.display = "none";
+  document.getElementById('flis-txt').innerHTML = '';
+  document.getElementById('text-content').innerHTML = '';
 
+  document.getElementById("text-label").innerText = "Welcome to Text Parser";
+  document.getElementById("text-label-guide").innerText = "Paste your content here";
+  document.getElementById('keywords_plate_txt').innerHTML = "";
+
+  document.getElementById("doc-txt-textarea").style.display = "block";
+  document.getElementById("submittext").style.display = "block";
+
+  document.querySelector("#txt-form").reset();
+
+  document.getElementById("txt-content").style.display = "none";
+  document.getElementById("clear_txt").style.display = "none";
+});
 
 /**
  * 
@@ -129,7 +150,7 @@ urlForm.addEventListener("submit", (e) => {
   axios
     .post(url, formData)
     .then((res) => {
-     // console.log(res);
+      // console.log(res);
       document.getElementById("loader-url").style.display = "none";
       document.getElementById("url-input").style.display = "none";
       document.getElementById("submiturl").style.display = "none";
@@ -166,7 +187,7 @@ pearls_tab_btn.addEventListener("click", (e) => {
   axios
     .get(url)
     .then((res) => {
-   // console.log(res);
+      // console.log(res);
       document.getElementById("pearls_body").style.display = "block";
       document.getElementById("loader-pearls").style.display = "none";
 
@@ -176,7 +197,7 @@ pearls_tab_btn.addEventListener("click", (e) => {
 
     })
     .catch((err) => {
-     //console.log(err);
+      //console.log(err);
       document.getElementById("pearls_body").style.display = "block";
       document.getElementById("loader-pearls").style.display = "none";
       document.getElementById("btns").style.display = "none";
