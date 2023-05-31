@@ -62,7 +62,7 @@ foreach ($lis_found as $li) {
 
 //search for LIS
 if (!empty($keywords_found)) {
-    $messages['keywords_found'] =  implode(", ", $keywords_found);
+    $messages['keywords_found'] =  implode(", ", array_unique(array_map("strtolower", $keywords_found)));
     $messages['lis_found'] =  empty($lis_found) ? "Seems like there are no LIs in the file" : implode(", ", $colored_lis);
 } else {
     $messages['keywords_found'] =  "No keywords found";
