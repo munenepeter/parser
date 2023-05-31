@@ -69,7 +69,7 @@ clearBtn.addEventListener('click', () => {
   document.getElementById("file_input").style.display = "block";
 
   document.querySelector("form").reset();
-
+  document.getElementById('keywords_plate').innerHTML = "";
   document.getElementById("doc-content").style.display = "none";
   document.getElementById("clear").style.display = "none";
 });

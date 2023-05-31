@@ -5,6 +5,8 @@ use LukeMadhanga\DocumentParser;
 
 include '../vendor/autoload.php';
 
+include_once '../converter/SimpleXLSX.php';
+
 //custom logger
 function logger(string $message): void {
     $logFile =  __DIR__ . "/../static/logs.log";
@@ -43,7 +45,7 @@ function get_keywords_in_text($text) {
             return preg_quote($word, '/');
         }, $chunk);
         $pattern = '/\b(' . implode('|', $escapedSearchWords) . ')\b/i';
-        preg_match_all($pattern, $text, $matches);
+        preg_match_all($pattern, wp_strip_all_tags($text), $matches);
         //remove duplicate & empty elements
         $foundWords = array_filter(array_unique(array_merge($foundWords, $matches[0])));
     }
@@ -100,7 +102,18 @@ function getWordText($file) {
     return $text;
 }
 function getExcelText($file) {
-    throw new \Exception("Excel format is yet to be supported! E214");
+
+    try {
+        $xlsx = Test\SimpleXLSX::parseFile($file, $debug = false);
+        return $xlsx->toHTMLEx();
+    } catch (\Exception $e) {
+        throw new \Exception($e->getMessage());
+        logger('ERROR: An exception was called ' . $e->getMessage());
+        return;
+    }
+
+   
+   // throw new \Exception("Excel format is yet to be supported! E214");
 }
 function readUploadedFile($file) {
     //pdf

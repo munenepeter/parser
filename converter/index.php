@@ -4,14 +4,14 @@ include_once 'SimpleXLSX.php';
 echo '<pre>';
 
 // open
-$filename = 'test2.xlsx';
+$filename = 'test3.xlsx';
 
 $xlsx = Test\SimpleXLSX::parseFile( $filename, $debug = false );
 
 // simple
 // $xlsx->rows($worksheetIndex = 0, $limit = 0): array
 // $xlsx->readRows($worksheetIndex = 0, $limit = 0): Generator - helps read huge xlsx
-print $xlsx->toHTMLEx();
+//print $xlsx->toHTMLEx(1);
 // extended
 // $xlsx->rowsEx($worksheetIndex = 0, $limit = 0): array
 // $xlsx->readRowsEx($worksheetIndex = 0, $limit = 0): Generator - helps read huge xlsx with styles
@@ -24,4 +24,14 @@ print $xlsx->toHTMLEx();
 // $xlsx->sheetMeta($worksheetIndex = null):array sheets metadata (null = all sheets)
 // $xlsx->isHiddenSheet($worksheetIndex):bool
 
-//print_r($xlsx->getStyles());
+//print $xlsx->getStyles();
+
+// foreach ($xlsx->sheetNames() as $sheet) {
+//     print $sheet;
+// }
+
+
+for ($i = 0; $i < count($xlsx->sheetNames()); $i++) {
+echo $i;
+  //  print $xlsx->sheetName($i) . $xlsx->toHTMLEx($i);
+}
