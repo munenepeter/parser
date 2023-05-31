@@ -57,7 +57,7 @@ $lis_found = get_lis_in_text($keywords_found);
 
 $colored_lis = [];
 foreach ($lis_found as $li) {
-    $colored_lis[] = '<span style="background-color:' . getRandColor() . '">' . $li . '</span>';
+    $colored_lis[] = '<span style="color:' . getRandColor() . '">' . $li . '</span>';
 }
 
 //search for LIS
