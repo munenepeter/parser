@@ -68,7 +68,7 @@
             <article class="mx-auto w-full max-w-4xl format format-sm sm:format-base lg:format-lg format-purple dark:format-invert">
                 <header class="mb-4 border-b border-orange-200 dark:border-orange-700">
                     <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
-                        <li class="mr-2" role="presentation"> <button class="inline-block p-4 border-b-2 rounded-t-lg text-purple-900" id="document-tab" data-tabs-target="#document" type="button" role="tab" aria-controls="document" aria-selected="false">Converter</button> </li>
+                        <li class="mr-2" role="presentation"> <button class="inline-block p-4 border-b-2 rounded-t-lg text-purple-900" id="document-tab" data-tabs-target="#document" type="button" role="tab" aria-controls="document" aria-selected="false">Converter(excel)</button> </li>
                     </ul>
                 </header>
                 <section id="myTabContent">
