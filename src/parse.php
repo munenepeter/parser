@@ -55,6 +55,10 @@ $messages['text'] =  $text;
 $keywords_found = get_keywords_in_text($text);
 $lis_found = get_lis_in_text($keywords_found);
 
+foreach ($keywords_found as $$keyword) {
+    $keywords_found[] = '<span style="background-color:' . getRandColor() . '">' . $keyword . '</span>';
+}
+
 //search for LIS
 if (!empty($keywords_found)) {
     $messages['keywords_found'] =  implode(", ", $keywords_found);
