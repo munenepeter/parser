@@ -1634,5 +1634,13 @@
     {
         "name": "Federal Deposit Insurance Act",
         "abbr": "Federal Deposit Insurance Act, FDI Act, FDIA"
+    },
+     {
+        "name": "Truth in Lending Act",
+        "abbr": "Truth in Lending Act, TILA"
+    },
+     {
+        "name": "Consumer Financial Protection Act",
+        "abbr": "Consumer Financial Protection Act, Consumer Financial Protection Act of 2010"
     }
 ]
