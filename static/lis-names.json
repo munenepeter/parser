@@ -569,7 +569,7 @@
     },
     {
         "name": "BCBS / IOSCO Framework for Margin Requirements for Non-Centrally Cleared Derivatives",
-        "abbr": "BCBS / IOSCO Margin Requirements for Non-Centrally Cleared Derivatives, BCBS/IOSCO Framework for Margin Requirements for Non-Centrally Cleared Derivatives, Framework for Margin Requirements for Non-Centrally Cleared Derivatives, The Basel Committee on Banking Supervision, Board of the International Organization of Securities Commissions, Margin Requirements for Non-Centrally Cleared Derivatives"
+        "abbr": "BCBS / IOSCO Margin Requirements for Non-Centrally Cleared Derivatives, BCBS/IOSCO Framework for Margin Requirements for Non-Centrally Cleared Derivatives, Framework for Margin Requirements for Non-Centrally Cleared Derivatives, Board of the International Organization of Securities Commissions, Margin Requirements for Non-Centrally Cleared Derivatives"
     },
     {
         "name": "BCBS Principles for effective risk data aggregation and risk reporting",
@@ -1185,7 +1185,7 @@
     },
     {
         "name": "The Dodd-Frank Wall Street Reform and Consumer Protection Act",
-        "abbr": "Dodd–Frank, Dodd–Frank Act"
+        "abbr": "Dodd–Frank, Dodd–Frank Act, dodd"
     },
     {
         "name": "Truth in Lending Act",
@@ -1626,5 +1626,13 @@
      {
         "name": "Personal Data (Privacy) Ordinance (PDPO)",
         "abbr": "Personal Data (Privacy) Ordinance (PDPO), PDPO, Personal Data (Privacy) Ordinance"
+    },
+    {
+        "name": "Generally Accepted Accounting Principles (GAAP)",
+        "abbr": "Generally Accepted Accounting Principles (GAAP), GAAP, gaap, U.S. Generally Accepted Accounting Principles"
+    },
+    {
+        "name": "Federal Deposit Insurance Act",
+        "abbr": "Federal Deposit Insurance Act, FDI Act, FDIA"
     }
 ]
