@@ -82,7 +82,7 @@ clearBtn.addEventListener('click', () => {
 let textForm = document.querySelector("#txt-form")
 textForm.addEventListener("submit", (e) => {
   e.preventDefault();
-  document.getElementById("loader").style.display = "block";
+  document.getElementById("loader-txt").style.display = "block";
 
   const formData = new FormData(textForm);
   const url = "/src/parse.php";
@@ -90,7 +90,7 @@ textForm.addEventListener("submit", (e) => {
     .post(url, formData)
     .then((res) => {
       //console.log(res);
-      document.getElementById("loader").style.display = "none";
+      document.getElementById("loader-txt").style.display = "none";
       document.getElementById("doc-txt-textarea").style.display = "none";
       document.getElementById("submittext").style.display = "none";
 
