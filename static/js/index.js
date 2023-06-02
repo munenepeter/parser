@@ -82,8 +82,9 @@ clearBtn.addEventListener('click', () => {
 let textForm = document.querySelector("#txt-form")
 textForm.addEventListener("submit", (e) => {
   e.preventDefault();
-  document.getElementById("loader-txt").style.display = "block";
   document.getElementById("doc-txt-textarea").style.display = "none";
+  document.getElementById("submittext").style.display = "none";
+  document.getElementById("loader-txt").style.display = "block";
 
   const formData = new FormData(textForm);
   const url = "/src/parse.php";
@@ -92,7 +93,7 @@ textForm.addEventListener("submit", (e) => {
     .then((res) => {
       //console.log(res);
       document.getElementById("loader-txt").style.display = "none";
-      document.getElementById("submittext").style.display = "none";
+      
 
       document.getElementById("text-label").innerText = "The following have been found to be possible LI's within the file";
       document.getElementById("text-label-guide").innerText = "Please confirm them before using";
