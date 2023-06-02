@@ -178,12 +178,32 @@ function getUrlText($url) {
     return $text;
 }
 
+// function getRandColor() {
+//     $rgbColor = [];
+//     foreach (['r', 'g', 'b'] as $color) {
+//         //Generate a random number between 0 and 255.
+//         $rgbColor[$color] = mt_rand(0, 255);
+//     }
+//     $colorCode = implode(",", $rgbColor);
+//     return "rgb($colorCode)";
+// }
+
 function getRandColor() {
     $rgbColor = [];
     foreach (['r', 'g', 'b'] as $color) {
         //Generate a random number between 0 and 255.
         $rgbColor[$color] = mt_rand(0, 255);
     }
+    //Calculate the saturation of the color.
+    $saturation = max($rgbColor) - min($rgbColor);
+    //If the saturation is less than 50, then generate a new color.
+    while ($saturation < 50) {
+        foreach (['r', 'g', 'b'] as $color) {
+            $rgbColor[$color] = mt_rand(0, 255);
+        }
+        $saturation = max($rgbColor) - min($rgbColor);
+    }
+    //Return the color code.
     $colorCode = implode(",", $rgbColor);
     return "rgb($colorCode)";
 }
