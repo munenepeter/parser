@@ -35,4 +35,7 @@ $allpearls = array_map(function ($pearl) {
 file_put_contents("static/keywords.txt", json_encode(array_unique($allpearls)));
 
 
+echo "Keywords cached successfully";
+
+
 
