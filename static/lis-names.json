@@ -1380,7 +1380,7 @@
     },
     {
         "name": "Company Act (Taiwan)",
-        "abbr": "Company Act"
+        "abbr": "Company Act (Taiwan), Taiwan Companies Act"
     },
     {
         "name": "Financial Holding Company Act (Taiwan)",
@@ -1652,6 +1652,10 @@
     },
   {
         "name": "RFA - Regulatory Flexibility Act",
-        "abbr": "regulatory flexibility act,RFA "
+        "abbr": "regulatory flexibility act, RFA"
+    },
+ {
+        "name": "Sarbanes Oxley Act of 2002",
+        "abbr": "Sarbanes Oxley Act of 2002, sarbanes-oxley act, Sarbanes Oxley"
     }
 ]
