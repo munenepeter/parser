@@ -8,7 +8,7 @@
     },
     {
         "name": "Australian Securities and Investments Commission Act 2001",
-        "abbr": "ASIC Act"
+        "abbr": "ASIC Act, Australian Securities and Investments Commission Act"
     },
     {
         "name": "Banking Act 1959",
@@ -20,7 +20,7 @@
     },
     {
         "name": "National Consumer Credit Protection Act 2009",
-        "abbr": "NCCP Act, National Credit Act, No. 134 2009"
+        "abbr": "NCCP Act, National Credit Act, No. 134 2009, National Consumer Credit Protection Act"
     },
     {
         "name": "Privacy Act 1988 (Australia)",
@@ -204,7 +204,7 @@
     },
     {
         "name": "EU Bank Creditor Hierarchy Directive",
-        "abbr": "Directive (EU) 2017/2399, 2017/2399, 2017/2399/EU"
+        "abbr": "Directive (EU) 2017/2399, 2017/2399, 2017/2399/EU, Bank Creditor Hierarchy Directive"
     },
     {
         "name": "EU Cyber Sanctions",
@@ -468,7 +468,7 @@
     },
     {
         "name": "Target2",
-        "abbr": "2014/533/EU, 2014/533/EU: Decision of the European Central Bank of 13 August 2014 on the identification of TARGET2 as a systemically important payment system pursuant to Regulation (EU) No 795/2014 on oversight requirements for systemically important payment systems (ECB/2014/35), ECB/2014/35"
+        "abbr": "Target2, 2014/533/EU, 2014/533/EU: Decision of the European Central Bank of 13 August 2014 on the identification of TARGET2 as a systemically important payment system pursuant to Regulation (EU) No 795/2014 on oversight requirements for systemically important payment systems (ECB/2014/35), ECB/2014/35"
     },
     {
         "name": "Targeted longer-term refinancing operation II (TLTRO II)",
@@ -516,7 +516,7 @@
     },
     {
         "name": "Banking Capital Rules",
-        "abbr": "Cap. 628B, LAC Rules"
+        "abbr": "Cap. 628B, LAC Rules, Banking Capital Rule"
     },
     {
         "name": "Banking Liquidity (Amendment) Rules 2019",
@@ -648,15 +648,15 @@
     },
     {
         "name": "Interest Rate Risk  in the Banking Book (IRRBB)",
-        "abbr": "Interest Rate Risk  in the Banking Book (IRRBB)"
+        "abbr": "Interest Rate Risk  in the Banking Book, IRRBB"
     },
     {
         "name": "International Banking Act 1978",
-        "abbr": "International Banking Act 1978"
+        "abbr": "International Banking Act 1978, International Banking Act"
     },
     {
         "name": "International Financial Reporting Standards",
-        "abbr": "IFRS"
+        "abbr": "IFRS, International Financial Reporting Standards. IFRS9"
     },
     {
         "name": "International Standards on Combating Money Laundering and the Financing of Terrorism and Proliferation (2012)",
@@ -668,7 +668,7 @@
     },
     {
         "name": "IOSCO Principles for Financial Benchmarks",
-        "abbr": "Principles   for   Financial Benchmarks"
+        "abbr": "Principles for Financial Benchmarks"
     },
     {
         "name": "IOSCO Principles of Auditor Indepedence and the Role of Coporate Governance in Monitering an Auditor's Independence",
@@ -696,7 +696,7 @@
     },
     {
         "name": "Principles for Financial Market Infrastructures",
-        "abbr": "PFMI"
+        "abbr": "PFMI, Principles for Financial Market Infrastructures"
     },
     {
         "name": "Principles for Responsible Banking",
@@ -752,7 +752,7 @@
     },
     {
         "name": "Electronic Money Regulations 2011",
-        "abbr": "EMR, EMR 2011, EMRs"
+        "abbr": "EMR, EMR 2011, EMRs, Electronic Money Regulations"
     },
     {
         "name": "Banking Act",
@@ -772,15 +772,15 @@
     },
     {
         "name": "Financial Markets Amendment Act 2019",
-        "abbr": "Wijzigingswet financiële markten 2019"
+        "abbr": "Wijzigingswet financiële markten 2019, Financial Markets Amendment Act"
     },
     {
         "name": "Financial Supervision Act",
-        "abbr": "WFT, Wet op het financieel toezicht"
+        "abbr": "WFT, Wet op het financieel toezicht, Financial Supervision Act"
     },
     {
         "name": "Law for the Prevention of Money Laundering and Terrorist Financing",
-        "abbr": "WWFT"
+        "abbr": "WWFT, Law for the Prevention of Money Laundering and Terrorist Financing"
     },
     {
         "name": "Anti-Money Laundering and Counter-Terrorism Financing Amendment Act 2017",
@@ -788,15 +788,15 @@
     },
     {
         "name": "Manual of Regulations for Banks",
-        "abbr": "MORB"
+        "abbr": "MORB, Manual of Regulations for Banks"
     },
     {
         "name": "Manual of Regulations for Non-Bank Financial Institutions",
-        "abbr": "MORNBFI"
+        "abbr": "MORNBFI, Manual of Regulations for Non-Bank Financial Institutions"
     },
     {
         "name": "Monetary Authority of Singapore Act (MAS Act)",
-        "abbr": "MAS Act"
+        "abbr": "MAS Act, Monetary Authority of Singapore Act"
     },
     {
         "name": "Monetary Authority of Singapore Control and Resolution of Financial Institutions Regulations 2013",
@@ -804,7 +804,7 @@
     },
     {
         "name": "Securities and Futures Act (SFA)",
-        "abbr": "SFA"
+        "abbr": "SFA, Securities and Futures Act"
     },
     {
         "name": "Technology Risk Management Guidelines (TRM Guidelines)",
@@ -816,7 +816,7 @@
     },
     {
         "name": "Capital Adequacy Ordinance",
-        "abbr": "CAO"
+        "abbr": "CAO, Capital Adequacy Ordinance"
     },
     {
         "name": "Financial Market Infrastructure Act",
@@ -828,7 +828,7 @@
     },
     {
         "name": "Swiss Financial Market Supervisory Authority Regulation",
-        "abbr": "FINMA Regulation"
+        "abbr": "FINMA Regulation, Swiss Financial Market Supervisory Authority Regulation"
     },
     {
         "name": "Anti-Terrorism, Crime and Security Act 2001",
@@ -840,15 +840,15 @@
     },
     {
         "name": "Banking Act 2009",
-        "abbr": "Banking Act"
+        "abbr": "Banking Act 2009"
     },
     {
         "name": "Banking Act 2009 (Fees) Regulations 2018",
-        "abbr": "Banking Act"
+        "abbr": "Banking Act 2009 (Fees), Banking Act 2009 (Fees) Regulations"
     },
     {
-        "name": "Banking Reform Act",
-        "abbr": "Financial Services  Act 2013, Financial Services (Banking Reform) Act 2013"
+        "name": "Financial Services (Banking Reform) Act 2013",
+        "abbr": "Financial Services Act 2013, Financial Services (Banking Reform) Act 2013, Banking Reform Act, Financial Services (Banking Reform) Act"
     },
     {
         "name": "The Debt Respite Scheme (Breathing Space Moratorium and Mental Health Crisis Moratorium) (England and Wales) Regulations 2020",
@@ -888,11 +888,11 @@
     },
     {
         "name": "Electronic Money Regulations",
-        "abbr": "E-Money Regulations"
+        "abbr": "E-Money Regulations, Electronic Money Regulations"
     },
     {
         "name": "Enterprise Act 2002",
-        "abbr": "Enterprise Act"
+        "abbr": "Enterprise Act 2002"
     },
     {
         "name": "Enterprise and Regulatory Reform Act 2013",
@@ -928,7 +928,7 @@
     },
     {
         "name": "Financial Market Infrastructure Special Administration Regime",
-        "abbr": "FI SAR"
+        "abbr": "FI SAR, Financial Market Infrastructure Special Administration Regime"
     },
     {
         "name": "Financial Regulators Powers (Technical Standards) (Amendment etc.) (EU Exit) Regulations 2018",
@@ -1068,11 +1068,11 @@
     },
     {
         "name": "Terrorism Act 2000",
-        "abbr": "Terrorism Act"
+        "abbr": "Terrorism Act 2000"
     },
     {
         "name": "Terrorism Act 2006",
-        "abbr": "Terrorism Act"
+        "abbr": "Terrorism Act 2006"
     },
     {
         "name": "Terrorist Asset-Freezing Act of 2010",
@@ -1108,7 +1108,7 @@
     },
     {
         "name": "Bank Holding Company Act",
-        "abbr": "BHCA"
+        "abbr": "BHCA, Bank Holding Company Act"
     },
     {
         "name": "Bank Secrecy Act",
@@ -1116,11 +1116,11 @@
     },
     {
         "name": "Code of Federal Regulations",
-        "abbr": "CFR"
+        "abbr": "CFR, Code of Federal Regulations"
     },
     {
         "name": "Commodity Exchange Act",
-        "abbr": "CEA"
+        "abbr": "CEA, Commodity Exchange Act"
     },
     {
         "name": "Community Reinvestment Act",
@@ -1132,15 +1132,15 @@
     },
     {
         "name": "Consumer Leasing Act",
-        "abbr": "CLA"
+        "abbr": "CLA, Consumer Leasing Act"
     },
     {
         "name": "Cybersecurity and Financial System Resilience Act of 2019",
-        "abbr": "H.R.4458, H.R.4458 — 116th Congress (2019-2020)"
+        "abbr": "H.R.4458, H.R.4458 — 116th Congress (2019-2020), Cybersecurity and Financial System Resilience Act"
     },
     {
         "name": "Economic Growth and Regulatory Paperwork Reduction Act of 1996",
-        "abbr": "EGRPRA"
+        "abbr": "EGRPRA, Economic Growth and Regulatory Paperwork Reduction Act"
     },
     {
         "name": "Economic Growth, Regulatory Relief and Consumer Protection Act",
@@ -1148,7 +1148,7 @@
     },
     {
         "name": "Federal Deposit Insurance Act",
-        "abbr": "FDIA"
+        "abbr": "FDIA, Federal Deposit Insurance Act"
     },
     {
         "name": "Federal Reserve Act",
@@ -1160,19 +1160,19 @@
     },
     {
         "name": "Foreign Account Tax Compliance Act",
-        "abbr": "FATCA"
+        "abbr": "FATCA, Foreign Account Tax Compliance Act"
     },
     {
         "name": "Investment Advisors Act",
-        "abbr": "IAA"
+        "abbr": "IAA, Investment Advisors Act"
     },
     {
         "name": "Investment Company Act",
-        "abbr": "ICA"
+        "abbr": "ICA, investment company act"
     },
     {
         "name": "Securities Act of 1933",
-        "abbr": "1933 Act, Federal Securities Act, Truth in Securities"
+        "abbr": "1933 Act, Federal Securities Act, Truth in Securities, securities act of 1933, securities act"
     },
     {
         "name": "Securities Exchange Act",
@@ -1188,7 +1188,7 @@
     },
     {
         "name": "Truth in Lending Act",
-        "abbr": "TILA"
+        "abbr": "TILA, Truth in Lending Act"
     },
     {
         "name": "United States Financial Sanctions",
@@ -1200,7 +1200,7 @@
     },
     {
         "name": "Multiannual Financial Framework (MFF)",
-        "abbr": "MFF"
+        "abbr": "MFF, Multiannual Financial Framework"
     },
     {
         "name": "Treasury Laws Amendment (Banking Executive Accountability and Related Measures) Act 2018",
@@ -1649,5 +1649,9 @@
     {
         "name": "Terrorism (Suppression of Financing) Act",
         "abbr": "Terrorism (Suppression of Financing) Act,Terrorism (Suppression of Financing) Act 2002"
+    },
+  {
+        "name": "RFA - Regulatory Flexibility Act",
+        "abbr": "regulatory flexibility act,RFA "
     }
 ]
