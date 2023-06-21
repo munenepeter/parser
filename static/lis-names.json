@@ -1,4 +1,5 @@
-[{
+[
+    {
         "name": "Anti-Money Laundering and Counter-Terrorism Financing Act 2006",
         "abbr": "AML/CFT Act, Anti-Money Laundering and Counter-Terrorism Financing Act 2006, Anti-Money Laundering and Counter-Terrorism Financing Act"
     },
@@ -1459,8 +1460,8 @@
         "abbr": "Legal services act"
     },
     {
-        "name": "Economic Crime and Corporate Transparency Bill",
-        "abbr": "Economic Crime and Corporate Transparency Bill"
+        "name": "Economic Crime and Corporate Transparency Bill",
+        "abbr": "Economic Crime and Corporate Transparency Bill"
     },
     {
         "name": "EMIR Refit",
@@ -1495,7 +1496,7 @@
         "abbr": "National AI Initiative Act, AI Act 2020"
     },
     {
-        "name": "The Financial Services (Miscellaneous Amendments) (EU Exit) Regulations 2022 – [United Kingdom]",
+        "name": "The Financial Services (Miscellaneous Amendments) (EU Exit) Regulations 2022 - [United Kingdom]",
         "abbr": "The Financial Services (Miscellaneous Amendments) (EU Exit) Regulations, The Financial Services (Miscellaneous Amendments) (EU Exit) Regulations 2022, S.I. 2019/632"
     },
     {
@@ -1503,11 +1504,11 @@
         "abbr": "SOFR, Secured Overnight Financing Rate"
     },
     {
-        "name": "Insurance Recovery and Resolution Directive (IRRD) – [European Union]",
+        "name": "Insurance Recovery and Resolution Directive (IRRD) - [European Union]",
         "abbr": "IRRD, Insurance Recovery and Resolution Directive"
     },
     {
-        "name": "Transfer of Funds Regulation – [European Union]",
+        "name": "Transfer of Funds Regulation - [European Union]",
         "abbr": "Transfer of Funds Regulation, European Transfer of Funds Regulation (TFR), Transfer of Funds Regulation (TFR)"
     },
     {
@@ -1643,19 +1644,59 @@
         "abbr": "Consumer Financial Protection Act, Consumer Financial Protection Act of 2010"
     },
     {
-        "name": "Corruption, Drug Trafficking and Other Serious Crimes (Confiscation of Benefits) Act",
+        "name": "Corruption Drug Trafficking and Other Serious Crimes (Confiscation of Benefits) Act",
         "abbr": "Drug Trafficking and Other Serious Crimes (Confiscation of Benefits) Act,(Confiscation of Benefits) Act 1992"
     },
     {
         "name": "Terrorism (Suppression of Financing) Act",
         "abbr": "Terrorism (Suppression of Financing) Act,Terrorism (Suppression of Financing) Act 2002"
     },
-  {
+    {
         "name": "RFA - Regulatory Flexibility Act",
         "abbr": "regulatory flexibility act, RFA"
     },
- {
+    {
         "name": "Sarbanes Oxley Act of 2002",
         "abbr": "Sarbanes Oxley Act of 2002, sarbanes-oxley act, Sarbanes Oxley"
+    },
+    {
+        "name": "Financial Advisers (Exemption for Cross Border Arrangements) (Foreign Related Corporations) Regulations 2021 - [Singapore]",
+        "abbr": "Financial Advisers (Exemption for Cross Border Arrangements) (Foreign Related Corporations) Regulations 2021"
+    },
+    {
+        "name": "Financial Advisers (Exemption for Cross-Border Arrangements) (Foreign Offices) Regulations 2021 - [Singapore]",
+        "abbr": "Financial Advisers (Exemption for Cross-Border Arrangements) (Foreign Offices) Regulations 2021, Financial Advisers (Exemption for Cross-Border Arrangements)"
+    },
+    {
+        "name": "Companies Business Trusts and Other Bodies (Miscellaneous Amendments) Act 2023 - [Singapore]",
+        "abbr": "Companies Business Trusts and Other Bodies (Miscellaneous Amendments) Act 2023, Business Trusts and Other Bodies, Business Trusts and Other Bodies (Miscellaneous Amendments) Act"
+    },
+    {
+        "name": "Late Payment Directive - [European Union]",
+        "abbr": "Late Payment Directive"
+    },
+    {
+        "name": "Cyber Solidarity Act - [European Union]",
+        "abbr": "Cyber Solidarity Act"
+    },
+    {
+        "name": "Federal Deposit Insurance Corporation Improvement Act (FDICIA) - [United States]",
+        "abbr": "Federal Deposit Insurance Corporation Improvement Act, FDICIA"
+    },
+    {
+        "name": "Security of Critical Infrastructure Act - [Australia]",
+        "abbr": "Security of Critical Infrastructure Act"
+    },
+    {
+        "name": "Consumer Rights Directive (CRD) - [European Union]",
+        "abbr": "Consumer Rights Directive (CRD), Consumer Rights Directive"
+    },
+    {
+        "name": "Payment Systems (Regulation) Act 1998 - [Australia]",
+        "abbr": "Payment Systems (Regulation) Act 1998, Payment Systems (Regulation) Act"
+    },
+    {
+        "name": "Bank Service Company Act (BSCA) - [United States]",
+        "abbr": "Bank Service Company Act (BSCA), BSCA, Bank Service Company Act"
     }
 ]
