@@ -93,7 +93,7 @@ textForm.addEventListener("submit", (e) => {
     .then((res) => {
       //console.log(res);
       document.getElementById("loader-txt").style.display = "none";
-      
+
 
       document.getElementById("text-label").innerText = "The following have been found to be possible LI's within the file";
       document.getElementById("text-label-guide").innerText = "Please confirm them before using";
@@ -163,16 +163,39 @@ urlForm.addEventListener("submit", (e) => {
 
       document.getElementById('uri-content').innerHTML = res.data.text;
       document.getElementById('flis-url').innerHTML = res.data.lis_found;
+      document.getElementById('keywords_plate_url').innerHTML = res.data.keywords_found;
 
-      document.getElementById("clear").style.display = "block";
+      document.getElementById("clear_url").style.display = "block";
       document.getElementById("lis-found-url").style.display = "block";
+      document.getElementById("extra_url").style.display = "block";
     })
     .catch((err) => {
       console.log(err);
     });
 
 });
+/**
+ * 
+ * Clear Button for url
+ */
+const clearBtnURL = document.getElementById('clear_url');
+clearBtnURL.addEventListener('click', () => {
+  document.getElementById("lis-found-url").style.display = "none";
+  document.getElementById('flis-url').innerHTML = '';
+  document.getElementById('uri-content').innerHTML = '';
 
+  document.getElementById("url-label").innerText = "Welcome to Text Parser";
+  document.getElementById("url-label-guide").innerText = "Paste your content here";
+  document.getElementById('keywords_plate_url').innerHTML = "";
+
+  document.getElementById("url-input").style.display = "block";
+  document.getElementById("submiturl").style.display = "block";
+
+  document.querySelector("#url-form").reset();
+
+  document.getElementById("url-content").style.display = "none";
+  document.getElementById("clear_url").style.display = "none";
+});
 
 
 
