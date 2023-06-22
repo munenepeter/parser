@@ -22,7 +22,7 @@ function getAllLis() {
     return  array_filter($allLis);
 }
 
-$allpearls = array_merge(explode(',', trim($pearls)), GetAllLis());
+$allpearls = array_merge(explode(',', trim($pearls)), getAllLis());
 
 $allpearls = array_map(function ($pearl) {
     return strtolower(trim($pearl));
