@@ -44,7 +44,7 @@ elseif (!empty($_POST['url']) && empty($_FILES)) {
 //check if text is empty
 if (empty($text)) {
     logger('ERROR: Couldn\'t get the text!');
-    $messages['keywords_found'] = 'Sorry, there was an error, try contacting the developer <developers@chungu.co.ke>';
+    $messages['keywords_found'] = 'Sorry, there was an error, try contacting the developer developers@chungu.co.ke';
     $messages['lis_found'] =  'An error has occured';
     $messages['text'] = '<p class="p-4 text-red-500 text-md font-semibold text-center">Something happened while trying to get the text, please try using the \'text\' parser</p>';
     echo json_encode($messages);
