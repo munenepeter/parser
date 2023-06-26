@@ -73,18 +73,21 @@
                 </header>
                 <section id="myTabContent">
                     <div class="p-2 rounded-lg bg-rose-50 dark:bg-gray-800" id="document" role="tabpanel" aria-labelledby="document-tab">
+                        <br>
+                        <p class="text-red-600 text-lg text-center italic">This feature is in active development, please try again later</p>
+                        <br>
                         <p id="doc-label" class="text-lg text-center font-medium text-gray-900 dark:text-white">Welcome to Document Converter</p> <label id="doc-label-guide" class="block mb-2 text-sm text-center text-gray-500 dark:text-gray-400" for="file_input" data-js-label>Select document to convert</label>
                         <form method="post" action="/src/parse.php" id="doc-form" enctype="multipart/form-data" class=" flex flex-col justify-center">
                             <div class="flex flex-row justify-center items-center">
-                                <input class="mr-2 block w-3/4 text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400" id="file_input" type='file' name="files" accept=".xlsx,.xls,.doc, .docx,.ppt, .pptx,.txt,.pdf" />
-                                <button name="submitpdf" type="submit" id="submitpdf" class="focus:outline-none text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Convert</button>
+                                <input disabled class="mr-2 block w-3/4 text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400" id="file_input" type='file' name="files" accept=".xlsx,.xls,.doc, .docx,.ppt, .pptx,.txt,.pdf" />
+                                <button name="submitpdf" type="disabled" id="submitpdf" class="focus:outline-none text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Convert</button>
                             </div>
                             <div class="flex items-center mb-4">
-                                <input id="excel-html" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <input disabled id="excel-html" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                                 <label for="excel-html" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Excel-HTML</label>
                             </div>
                             <div class="flex items-center mb-4">
-                                <input id="excel-json" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <input disabled id="excel-json" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                                 <label for="excel-json" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Excel-JSON</label>
                             </div>
                         </form>
