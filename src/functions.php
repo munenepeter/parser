@@ -188,8 +188,9 @@ function getRandColor() {
             $rgbColor[$color] = mt_rand(0, 255);
         }
         $saturation = max($rgbColor) - min($rgbColor);
-    } //Return the color code. $colorCode=implode(",", $rgbColor);
-    return "rgb($rgbColor)";
+    } //Return the color code. 
+    $colorCode=implode(",", $rgbColor);
+    return "rgb($colorCode)";
 }
 function getPearlsWithColors(): string {
     $keywords = getAllKeywords();
