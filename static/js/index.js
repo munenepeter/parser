@@ -242,3 +242,25 @@ edit_pearls_btn.addEventListener("click", (e) => {
   //convert the div to content editable
 
 });
+
+
+const cache_keywords_btn = document.querySelector("#cache_keywords");
+cache_keywords_btn.addEventListener("click", (e) => {
+  e.preventDefault();
+  cache_keywords_btn.classList.remove("text-rose-500");
+  cache_keywords_btn.classList.add("text-green-500");
+  cache_keywords_btn.innerHTML = "Caching keywords...";
+
+  const url = "/src/cache_keywords.php";
+  axios
+    .get(url)
+    .then((res) => {
+      //console.log(res);
+      cache_keywords_btn.innerHTML = res.data;
+
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+
+});

@@ -21,7 +21,7 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 
-  
+
 </head>
 
 <body class="bg-gray-50">
@@ -57,15 +57,17 @@
             <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
                 <ul class="flex flex-col p-2 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-semibold ">
                     <li>
-                        <a href="/converter" class="block py-2 pl-3 pr-4 text-purple-700 md:hover:text-orange-700 md:p-0 ">Converter</a>
+                        <a href="/converter"
+                            class="block py-2 pl-3 pr-4 text-purple-700 md:hover:text-orange-700 md:p-0 ">Converter</a>
                     </li>
                     <li>
                         <a href="https://dev.chungu.co.ke/projects"
                             class="block py-2 pl-3 pr-4  md:p-0 text-purple-700 md:hover:text-orange-700">Projects</a>
                     </li>
-                   
+
                     <li>
-                        <a href="/logview.php" class="block py-2 pl-3 pr-4 text-purple-700 md:hover:text-orange-700 md:p-0 ">View Logs</a>
+                        <a href="/logview.php"
+                            class="block py-2 pl-3 pr-4 text-purple-700 md:hover:text-orange-700 md:p-0 ">View Logs</a>
                     </li>
                 </ul>
             </div>
@@ -95,6 +97,10 @@
                                 class="text-purple-900 inline-block p-4 border-b-2 font-semibold border-transparent text-rose-500 rounded-t-lg hover:text-rose-700 hover:border-red-300 dark:hover:text-gray-300"
                                 id="pearls-tab" data-tabs-target="#pearls" type="button" role="tab"
                                 aria-controls="pearls" aria-selected="false">Pearls</button> </li>
+
+                        <li class="mr-2"> <button
+                                class="text-purple-900 inline-block p-4 border-b-2 font-semibold border-transparent text-rose-500 rounded-t-lg hover:text-rose-700 hover:border-red-300 dark:hover:text-gray-300"
+                                id="cache_keywords" type="button">Cache Keywords</button> </li>
                     </ul>
                 </header>
                 <section id="myTabContent">
@@ -128,7 +134,8 @@
                             <div class="hidden bg-gray-50 rounded-lg">
                                 <p class="text-sm"></p>
                             </div>
-                            <div style="display:none;" id="extra" class="flex flex-col p-4 space-x-4 rounded-lg items-center">
+                            <div style="display:none;" id="extra"
+                                class="flex flex-col p-4 space-x-4 rounded-lg items-center">
                                 <div class="w-11/12 bg-white p-1 text-xs" id="keywords_plate">
                                 </div>
 
@@ -153,8 +160,8 @@
                                 id="submittext"
                                 class="my-2 focus:outline-none text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Parse</button>
                         </form> <!-- Text content -->
-                        <center> <img style="display:none;" id="loader-txt" src="static/imgs/loader.gif" alt="" width="150"
-                                height="150" srcset=""></p>
+                        <center> <img style="display:none;" id="loader-txt" src="static/imgs/loader.gif" alt=""
+                                width="150" height="150" srcset=""></p>
                         </center>
                         <section id="txt-content" style="display:none;" class="mt-4 p-2 rounded-lg bg-white">
                             <div id="text-content" class="p-2 overflow-y-auto h-72"></div>
@@ -201,11 +208,12 @@
                             <div class="hidden bg-gray-50 rounded-lg">
                                 <p class="text-sm">something will be added here</p>
                             </div>
-                        
-                            <div style="display:none;" id="extra_url" class="flex p-4 space-x-4 rounded-lg items-center">
+
+                            <div style="display:none;" id="extra_url"
+                                class="flex p-4 space-x-4 rounded-lg items-center">
                                 <div class="w-11/12 bg-white p-1 text-xs" id="keywords_plate_url">
                                 </div>
-                        
+
                                 <button id="clear_url" type="button"
                                     class="mt-1 float-right clearfix text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Clear</button>
                             </div>
@@ -240,7 +248,8 @@
                 </section>
             </article>
         </section>
-        <p class="text-rose-600 text-xs text-center italic">This site does not store or record data, All data is deleted after one clears text, document or url</p>
+        <p class="text-rose-600 text-xs text-center italic">This site does not store or record data, All data is deleted
+            after one clears text, document or url</p>
         <br>
     </main>
     <div class="border-t bg-gray-100 left-50 w-full  bottom-0"

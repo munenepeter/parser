@@ -2,11 +2,11 @@
 
 //testing using the pearls
 
-$pearls = file_get_contents("static/pearls.txt");
+$pearls = file_get_contents(__DIR__."/../static/pearls.txt");
 
 function getAllLis() {
     //from db
-    $databaseLis = json_decode(file_get_contents("static/lis-names.json"));
+    $databaseLis = json_decode(file_get_contents(__DIR__."/../static/lis-names.json"));
 
     $allLis = [];
 
@@ -32,10 +32,7 @@ $allpearls = array_map(function ($pearl) {
 
 
 
-file_put_contents("static/keywords.txt", json_encode(array_unique($allpearls)));
+file_put_contents(__DIR__."/../static/keywords.txt", json_encode(array_unique($allpearls)));
 
 
 echo "Keywords cached successfully";
-
-
-
