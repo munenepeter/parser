@@ -7,18 +7,11 @@ include '../vendor/autoload.php';
 
 include_once '../converter/SimpleXLSX.php';
 
+include_once 'logs.php';
+
 //custom logger
-function logger(string $message): void {
-    $logFile =  __DIR__ . "/../static/logs.log";
-
-    if (!file_exists($logFile)) {
-        touch($logFile);
-        chmod($logFile, 0644);
-    }
-
-    $log = date("D, d M Y H:i:s") . ' - ' . $_SERVER['SERVER_NAME'] . ' - ' . $_SERVER['REMOTE_ADDR'] . ' - ' . "$message" . PHP_EOL;
-
-    file_put_contents($logFile, $log, FILE_APPEND);
+function logger(string $level, string $message) {
+   createlog($level, $message);
 }
 
 
@@ -82,10 +75,10 @@ function getPdfText($filename) {
         $parser = new Parser();
         $pdf = $parser->parseFile($filename);
         $text = $pdf->getText();
-        logger('INFO: Trying to parse ' . implode(', ', $pdf->getDetails()));
+        logger('Info','Trying to parse ' . implode(', ', $pdf->getDetails()));
     } catch (\Exception $e) {
         throw new \Exception($e->getMessage());
-        logger('ERROR: An exception was called ' . $e->getMessage());
+        logger('Error', 'An exception was called ' . $e->getMessage());
         return;
     }
     return $text;
@@ -96,7 +89,7 @@ function getWordText($file) {
         $text = DocumentParser::parseFromFile($file);
     } catch (\Exception $e) {
         throw new \Exception($e->getMessage());
-        logger('ERROR: An exception was called ' . $e->getMessage());
+        logger('Error', 'An exception was called ' . $e->getMessage());
         return;
     }
     return $text;
@@ -113,7 +106,7 @@ function getExcelText($file) {
         return $text;
     } catch (\Exception $e) {
         throw new \Exception($e->getMessage());
-        logger('ERROR: An exception was called ' . $e->getMessage());
+        logger('Error', 'An exception was called ' . $e->getMessage());
         return;
     }
 
@@ -156,7 +149,8 @@ function getUrlText($url) {
     $context = stream_context_create(
         [
             "http" => [
-                "header" => "User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+                "header" => "User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)
+Chrome/50.0.2661.102 Safari/537.36"
             ]
         ]
     );
@@ -169,7 +163,7 @@ function getUrlText($url) {
             $text = $parser->parseContent($html)->getText();
         } catch (\Exception $e) {
             throw new \Exception($e->getMessage());
-            logger('ERROR: An exception for URL was thrown ' . $e->getMessage());
+            logger('Error', 'An exception for URL was thrown ' . $e->getMessage());
             return;
         }
     } else {
@@ -178,15 +172,7 @@ function getUrlText($url) {
     return $text;
 }
 
-// function getRandColor() {
-//     $rgbColor = [];
-//     foreach (['r', 'g', 'b'] as $color) {
-//         //Generate a random number between 0 and 255.
-//         $rgbColor[$color] = mt_rand(0, 255);
-//     }
-//     $colorCode = implode(",", $rgbColor);
-//     return "rgb($colorCode)";
-// }
+
 
 function getRandColor() {
     $rgbColor = [];
@@ -202,20 +188,17 @@ function getRandColor() {
             $rgbColor[$color] = mt_rand(0, 255);
         }
         $saturation = max($rgbColor) - min($rgbColor);
-    }
-    //Return the color code.
-    $colorCode = implode(",", $rgbColor);
-    return "rgb($colorCode)";
+    } //Return the color code. $colorCode=implode(",", $rgbColor);
+    return "rgb($rgbColor)";
 }
-
-
 function getPearlsWithColors(): string {
     $keywords = getAllKeywords();
     $all_pearls_with_colors = [];
-
     foreach ($keywords as $keyword) {
         $all_pearls_with_colors[] = '<span style="background-color:' . getRandColor() . '">' . $keyword . '</span>';
     }
-
-    return implode(' ', $all_pearls_with_colors);
+    return
+        implode(' ', $all_pearls_with_colors);
 }
+
+

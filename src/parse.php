@@ -14,13 +14,13 @@ $messages = [];
 // Handle File upload
 
 if (!empty($_FILES) && empty($_POST['text'])) {
-    logger(json_encode($_FILES));
+    logger('Info', 'File upload'.json_encode($_FILES));
     try {
         // read the uploaded file
         $text = readUploadedFile($_FILES['files']['tmp_name']);
     } catch (\Exception $e) {
         // log any errors and set an error message for the user
-        logger('ERROR: ' . $e->getMessage());
+        logger('Error',  $e->getMessage());
         $messages['text'] = '<p class="p-4 text-red-500 text-sm font-semibold text-center">You have no idea what happened huh? Well so do I. Code:E214</p>';
     }
 }
@@ -36,14 +36,14 @@ elseif (!empty($_POST['url']) && empty($_FILES)) {
         $text = getUrlText(trim($_POST['url']));
     } catch (\Exception $e) {
         // log any errors and set an error message for the user
-        logger('ERROR: ' . $e->getMessage());
+        logger('Error', '' . $e->getMessage());
         $messages['text'] = '<p class="p-4 text-red-500 text-sm font-semibold text-center">You have no idea what happened huh? Well so do I. Code:E214</p>';
     }
 }
 
 //check if text is empty
 if (empty($text)) {
-    logger('ERROR: Couldn\'t get the text!');
+    logger('Error', 'Couldn\'t get the text!');
     $messages['keywords_found'] = 'Sorry, there was an error, try contacting the developer developers@chungu.co.ke';
     $messages['lis_found'] =  'An error has occured';
     $messages['text'] = '<p class="p-4 text-red-500 text-md font-semibold text-center">Something happened while trying to get the text, please try using the \'text\' parser</p>';
