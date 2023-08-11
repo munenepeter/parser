@@ -58,7 +58,15 @@ $lis_found = get_lis_in_text($keywords_found);
 
 $colored_lis = [];
 foreach ($lis_found as $li) {
-    $colored_lis[] = '<span style="color:' . getRandColor() . '">' . $li . '</span>';
+
+
+   $href = http_build_query([
+   'searchString' => $li
+   ]);
+ $colored_lis[] = '<a target="_blank"
+           href="https://munenepeter.github.io/legislative-initiatives/?' . $href . '"
+           style="color:' . getRandColor() . '">' .
+           $li . '</a>';
 }
 
 //search for LIS

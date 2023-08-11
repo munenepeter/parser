@@ -196,7 +196,13 @@ function getPearlsWithColors(): string {
     $keywords = getAllKeywords();
     $all_pearls_with_colors = [];
     foreach ($keywords as $keyword) {
-        $all_pearls_with_colors[] = '<span style="background-color:' . getRandColor() . '">' . $keyword . '</span>';
+        $href = http_build_query([
+            'searchString' => $keyword
+        ]);
+        $all_pearls_with_colors[] = '<a _target="blank"
+            href="https://munenepeter.github.io/legislative-initiatives/?'.$href.'"
+            style="background-color:' . getRandColor() . '">' .
+            $keyword . '</a>';
     }
     return
         implode(' ', $all_pearls_with_colors);
