@@ -197,9 +197,11 @@ function getPearlsWithColors(): string {
     $all_pearls_with_colors = [];
     foreach ($keywords as $keyword) {
         $href = http_build_query([
+            'source' => 'parser',
+            'resource' => 'pearls',
             'searchString' => $keyword
         ]);
-        $all_pearls_with_colors[] = '<a _target="blank"
+        $all_pearls_with_colors[] = '<a target="_blank" class="hover:underline"
             href="https://munenepeter.github.io/legislative-initiatives/?'.$href.'"
             style="background-color:' . getRandColor() . '">' .
             $keyword . '</a>';

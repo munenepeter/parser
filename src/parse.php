@@ -60,9 +60,11 @@ $colored_lis = [];
 foreach ($lis_found as $li) {
 
    $href = http_build_query([
+    'source' => 'parser',
+    'resource' => 'legislative_initiatives',
    'searchString' => $li
    ]);
- $colored_lis[] = '<a target="_blank"
+ $colored_lis[] = '<a target="_blank" class="hover:underline"
            href="https://munenepeter.github.io/legislative-initiatives/?' . $href . '"
            style="color:' . getRandColor() . '">' .
            $li . '</a>';
@@ -74,9 +76,11 @@ $colored_keywords = [];
 foreach ($keywords_found as $keyword_found) {
 
 $href = http_build_query([
+'source' => 'parser',
+'resource' => 'keywords',
 'searchString' => $keyword_found
 ]);
-$colored_keywords[] = '<a target="_blank" href="https://munenepeter.github.io/legislative-initiatives/?' . $href . '"
+$colored_keywords[] = '<a target="_blank" class="hover:underline" href="https://munenepeter.github.io/legislative-initiatives/?' . $href . '"
     style="color:' . getRandColor() . '">' .
     strtolower($keyword_found) . '</a>';
 }
