@@ -59,7 +59,6 @@ $lis_found = get_lis_in_text($keywords_found);
 $colored_lis = [];
 foreach ($lis_found as $li) {
 
-
    $href = http_build_query([
    'searchString' => $li
    ]);
@@ -69,9 +68,22 @@ foreach ($lis_found as $li) {
            $li . '</a>';
 }
 
+
+
+$colored_keywords = [];
+foreach ($keywords_found as $keyword_found) {
+
+$href = http_build_query([
+'searchString' => $keyword_found
+]);
+$colored_keywords[] = '<a target="_blank" href="https://munenepeter.github.io/legislative-initiatives/?' . $href . '"
+    style="color:' . getRandColor() . '">' .
+    strtolower($keyword_found) . '</a>';
+}
+
 //search for LIS
 if (!empty($keywords_found)) {
-    $messages['keywords_found'] =  implode(", ", array_unique(array_map("strtolower", $keywords_found)));
+    $messages['keywords_found'] = implode(", ", array_unique($colored_keywords));
     $messages['lis_found'] =  empty($lis_found) ? "Seems like there are no LIs in the file" : implode(", ", $colored_lis);
 } else {
     $messages['keywords_found'] =  "No keywords found";
