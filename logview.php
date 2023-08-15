@@ -210,12 +210,35 @@ $all = implode(",", $logs);
                         <tr x-show="selected == <?= $count; ?>">
 
                             <?php
+
+$logLevel = $log->level;
+$classes = "";
+
+switch ($logLevel) {
+    case "Info":
+        $classes = "bg-green-50 border-b text-green-800 p-2";
+        break;
+    case "Debug":
+        $classes = "bg-blue-50 border-b text-blue-800 p-2";
+        break;
+    case "Error":
+        $classes = "bg-red-50 border-b text-red-800 p-2";
+        break;
+    case "Warning":
+        $classes = "bg-yellow-50 border-b text-yellow-800 p-2";
+        break;
+}
+
+
+
+    /*
                                 $classes = match ($log->level){
                                     "Info" => "bg-green-50 border-b text-green-800 p-2",
                                     "Debug" => "bg-blue-50 border-b text-blue-800 p-2",
                                     "Error" => "bg-red-50 border-b text-red-800 p-2",
                                     "Warning" => "bg-yellow-50 border-b text-yellow-800 p-2",
                                 }
+    */
                            ?>
                             <td class="<?=$classes?>" colspan="4">
                                 #
